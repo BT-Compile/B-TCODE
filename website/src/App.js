@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 function App() {
-  
+
   const hover = (elementId) => {
     // Handle hover event
   };
@@ -33,9 +33,6 @@ function App() {
         </div>
 
         <div className='containerBanner'>
-        <div id="code" class="square" onmouseover="hover('code');" onmouseout="offhover('code');" onclick="(window.location.href='index.html')">
-                <p id="pagetitle">Code</p>
-            </div>
         </div>
       </div>
     </div>
