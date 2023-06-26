@@ -1,8 +1,11 @@
 import React from 'react';
 import './App.css';
+import Tabs from '@mui/material/Tabs';
 import introimage from './assets/headshot.jpg';
+import github from './assets/git.png';
+import linkedin from './assets/link.png';
 
-function App() {
+export default function App() {
   return (
     <div id='wrapper'>
       <body>
@@ -11,17 +14,17 @@ function App() {
             <h1>Welcome</h1>
           </div>
         </div>
-        
+
         <div class="containerBanner">
-          <div id="code" class="square">
+          <div id="code" className="square" onMouseOver={() => hover('code')} onMouseOut={() => offhover('code')}>
             <p id="pagetitle">Code</p>
           </div>
 
-          <div id="contact" class="square">
+          <div id="contact" class="square" onMouseOver={() => hover('contact')} onMouseOut={() => offhover('contact')}>
             <p>Contact</p>
           </div>
 
-          <div id="about" class="square">
+          <div id="about" class="square" onMouseOver={() => hover('about')} onMouseOut={() => offhover('about')}>
             <p>About</p>
           </div>
         </div>
@@ -74,11 +77,37 @@ function App() {
             <p>Azure</p>
             <p>Node.js</p>
             <p>JQuery</p>
+            <p>React</p>
+          </div>
+        </div>
+
+        <h2 id="textalign">Links</h2>
+        <div class="containerText">
+          <div>
+            <a href="https://github.com/BT-Compile"><img id="github" src={github} alt="github image link" /></a>
+            <p id="textalign">Github</p>
+          </div>
+          <div>
+            <a href="https://www.linkedin.com/in/benjamin-trang/"><img id="linkedin" src={linkedin} alt="linkedin image link" /></a>
+            <p id="textalign">Linkedin</p>
           </div>
         </div>
       </body>
+
+      <footer>
+        <div id='footertxt'>Benjamin Trang &#169; {(new Date().getFullYear())}</div>
+      </footer>
+
     </div>
   )
 }
 
-export default App
+function hover(id) {
+  document.getElementById(id).style.background = 'white';
+  document.getElementById(id).style.color = 'black';
+}
+
+function offhover(id) {
+  document.getElementById(id).style.background = '';
+  document.getElementById(id).style.color = '';
+}
