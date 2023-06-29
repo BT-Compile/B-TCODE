@@ -53,11 +53,10 @@ h3 {
 
 /* Set the height of elements with the class 'banner' to be responsive using viewport height units, and add a background image, center it, and add text alignment and scrolling if necessary */
 .banner {
-  height: 40vh;
+  height: 60vh;
   background-image: url(assets/banner.jpg);
   background-size: cover;
   text-align: center;
-  overflow-y: auto;
 }
 
 /* Set the background image of elements with the class 'hero-image', position and center it to be responsive */
@@ -141,6 +140,7 @@ h3 {
 
 #languagesTitle {
   text-align: center;
+  margin-bottom: 5px;
 }
 
 #textalign {
@@ -176,10 +176,22 @@ h3 {
   position: absolute;
   float: right;
   margin-left: 125px;
-  margin-top: 125px;
+  margin-top: 75px;
+}
+
+.carimg {
+  margin:5px 0px 50px 420px;
 }
 
 #github {
+  width: 200px;
+  height: 200px;
+  display: inline-flexbox;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#email {
   width: 200px;
   height: 200px;
   display: inline-flexbox;
@@ -195,93 +207,15 @@ h3 {
   margin-right: auto;
 }
 
-/* This code defines the styling for a slideshow container that displays images */
-/* Set the maximum width of the container to 800 pixels and position it relative to its parent element */
-.slideshow-container {
-  max-width: 800px;
-  position: relative;
-  margin: 0 auto;
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform .75s ease-out;
+  will-change: opacity, visibility;
 }
-
-/* Style the images within the container */
-.slideshow-container img {
-  display: none;
-  /* Hide all images by default */
-  max-width: 100%;
-  /* Set the maximum width of the images to 100% of the container */
-  height: auto;
-  /* Automatically adjust the height of the images */
-  margin: 0 auto;
-  /* Center the images horizontally within the container */
-}
-
-/* Display the first image in the slideshow */
-.slideshow-container img:first-child {
-  display: block;
-}
-
-/* Style the previous and next buttons for navigating through the slideshow */
-.prev,
-.next {
-  position: absolute;
-  /* Position the buttons absolutely within the container */
-  top: 50%;
-  /* Vertically center the buttons */
-  transform: translateY(-50%);
-  /* Adjust the buttons to be centered properly */
-  font-size: 30px;
-  /* Set the font size of the buttons */
-  font-weight: bold;
-  /* Make the buttons bold */
-  padding: 10vh;
-  /* Add padding to the buttons */
-  cursor: pointer;
-  /* Change the cursor to a pointer on hover */
-  color: gold;
-  /* Set the color of the buttons to gold */
-  user-select: none;
-  /* this removes the highlight double click */
-  -moz-user-select: none;
-  /* this removes it for firefox */
-  -webkit-user-select: none;
-  /* this removes it for chromium */
-  -ms-user-select: none;
-  /* this removes it for ms browsers */
-}
-
-/* Position the next button to the right side of the container */
-.next {
-  right: 0;
-}
-
-/* Style the dot container for displaying the pagination dots */
-.dot-container {
-  text-align: center;
-  /* Center the dot container */
-  margin-top: 10px;
-  /* Add some margin to the top of the dot container */
-}
-
-/* Style the pagination dots */
-.dot {
-  display: inline-block;
-  /* Display the dots inline */
-  width: 10px;
-  /* Set the width of the dots */
-  height: 10px;
-  /* Set the height of the dots */
-  border-radius: 50%;
-  /* Make the dots circular */
-  background-color: gray;
-  /* Set the background color of the dots */
-  margin: 0 5px;
-  /* Add some margin between the dots */
-  cursor: pointer;
-  /* Change the cursor to a pointer on hover */
-}
-
-/* Style the active pagination dot */
-.active-dot {
-  background-color: gold;
-  /* Set the background color of the active dot to gold */
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
 }
