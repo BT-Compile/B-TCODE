@@ -59,11 +59,7 @@ h3 {
 
 /* Set the height of elements with the class 'banner' to be responsive using viewport height units, and add a background image, center it, and add text alignment and scrolling if necessary */
 .banner {
-<<<<<<< HEAD
-  height: 85vh;
-=======
-  height: 60vh;
->>>>>>> parent of 475acf5 (Update Main.css)
+  height: 80vh;
   background-image: url(assets/banner.jpg);
   background-size: cover;
   text-align: center;
