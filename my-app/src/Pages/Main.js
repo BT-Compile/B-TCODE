@@ -5,14 +5,12 @@ import github from './assets/git.png';
 import linkedin from './assets/link.png';
 import email from './assets/Email.png';
 import { Link } from 'react-router-dom';
-import Fade from '@material-ui/core/Fade';
 import Carousel from "nuka-carousel"
 import js from './assets/js.png';
 import java from './assets/java.png';
 import html from './assets/HTML.png';
 import sql from './assets/sql.png';
 import css from './assets/css.png';
-import arrow from './assets/arrow-down.png';
 
 export default function App() {
   return (
@@ -22,9 +20,6 @@ export default function App() {
           <div class="bannertext">
             <h1>Welcome</h1>
           </div>
-          <Fade>
-          <img id='downarrow' src={arrow} alt='arrow'/>
-          </Fade>
         </div>
 
         <nav className="containerBanner">
@@ -47,7 +42,6 @@ export default function App() {
           </div>
         </nav>
 
-        <FadeInSection>
         <div className='containerText'>
           <div id="blockLeft">
             <h2>Hello!</h2>
@@ -70,7 +64,6 @@ export default function App() {
             <img id='introimage' src={introimage} alt='intro image' />
           </div>
         </div>
-        </FadeInSection>
 
         <FadeInSection>
           <div className='containerText2'>
