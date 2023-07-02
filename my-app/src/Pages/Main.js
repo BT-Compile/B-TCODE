@@ -5,7 +5,6 @@ import github from './assets/git.png';
 import linkedin from './assets/link.png';
 import email from './assets/Email.png';
 import { Link } from 'react-router-dom';
-import Fade from '@material-ui/core/Fade';
 import Carousel from "nuka-carousel"
 import js from './assets/js.png';
 import java from './assets/java.png';
@@ -22,9 +21,7 @@ export default function App() {
           <div class="bannertext">
             <h1>Welcome</h1>
           </div>
-          <Fade>
-          <img id='downarrow' src={arrow} alt='arrow'/>
-          </Fade>
+          <img id='downarrow' src={arrow} alt='arrow' />
         </div>
 
         <nav className="containerBanner">
@@ -48,34 +45,34 @@ export default function App() {
         </nav>
 
         <FadeInSection>
-        <div className='containerText'>
-          <div id="blockLeft">
-            <h2>Hello!</h2>
-            <p>Welcome to my personal website! My name is Benjamin Trang and I'm an aspiring software engineer.
-              Currently I am a senior at James Madison University and will be graduating in the fall of 2023.
-              I'm excited to have you here and share my passion with you. This website is a place for me to
-              showcase my work (including the very site you are on now), share my thoughts on software development,
-              and connect with other like-minded individuals. As a software engineer, I believe that technology
-              has the power to change the world for the better, and I'm committed to using my skills to make a
-              positive impact. Whether you're a fellow software engineer, a firm checking out my work, or
-              simply curious about me and what I do, I hope you find something here that interests you.
-              Thank you for visiting my site, and I look forward to getting to know you better!
-              As a software engineer, I believe in the power of technology to make a positive impact on the world,
-              and am committed to using my skills to contribute to this goal.
-            </p>
-          </div>
+          <div className='containerText'>
+            <div id="blockLeft">
+              <h2>Hello!</h2>
+              <p>Welcome to my personal website! My name is Benjamin Trang and I'm an aspiring software engineer.
+                Currently I am a senior at James Madison University and will be graduating in the fall of 2023.
+                I'm excited to have you here and share my passion with you. This website is a place for me to
+                showcase my work (including the very site you are on now), share my thoughts on software development,
+                and connect with other like-minded individuals. As a software engineer, I believe that technology
+                has the power to change the world for the better, and I'm committed to using my skills to make a
+                positive impact. Whether you're a fellow software engineer, a firm checking out my work, or
+                simply curious about me and what I do, I hope you find something here that interests you.
+                Thank you for visiting my site, and I look forward to getting to know you better!
+                As a software engineer, I believe in the power of technology to make a positive impact on the world,
+                and am committed to using my skills to contribute to this goal.
+              </p>
+            </div>
 
 
-          <div id="blockRight">
-            <img id='introimage' src={introimage} alt='intro image' />
+            <div id="blockRight">
+              <img id='introimage' src={introimage} alt='intro image' />
+            </div>
           </div>
-        </div>
         </FadeInSection>
 
         <FadeInSection>
           <div className='containerText2'>
             <h2 id="languagesTitle">Familiar Languages</h2>
-            <Carousel autoplay='true' wrapAround='true'>
+            <Carousel autoplay='true' wrapAround='true' cellAlign='center' slideWidth='30%' scrollMode='page' speed={15000} withoutControls='true'>
               <img src={js} alt='javascript' className='carimg' />
               <img src={java} alt='java' className='carimg' />
               <img src={html} alt='html' className='carimg' />

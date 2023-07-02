@@ -52,17 +52,17 @@ h3 {
 }
 
 #downarrow {
-  position: absolute;
-  margin-left: 875px;
-  margin-top: 225px;
+  display: flex;
+  position: relative;
+  margin: auto;
+  padding-top: 50px;
 }
 
 /* Set the height of elements with the class 'banner' to be responsive using viewport height units, and add a background image, center it, and add text alignment and scrolling if necessary */
 .banner {
-  height: 80vh;
+  height: 85vh;
   background-image: url(assets/banner.jpg);
   background-size: cover;
-  text-align: center;
 }
 
 /* Set the background image of elements with the class 'hero-image', position and center it to be responsive */
@@ -186,7 +186,9 @@ h3 {
 }
 
 .carimg {
-  margin:5px 0px 50px 420px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  display: block;
 }
 
 #github {
