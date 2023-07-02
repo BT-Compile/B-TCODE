@@ -53,7 +53,7 @@ h3 {
 
 /* Set the height of elements with the class 'banner' to be responsive using viewport height units, and add a background image, center it, and add text alignment and scrolling if necessary */
 .banner {
-  height: 60vh;
+  height: 45vh;
   background-image: url(assets/banner.jpg);
   background-size: cover;
   text-align: center;
@@ -211,7 +211,7 @@ h3 {
   opacity: 0;
   transform: translateY(20vh);
   visibility: hidden;
-  transition: opacity 0.6s ease-out, transform .75s ease-out;
+  transition: opacity 0.6s ease-out, transform 1s ease-out;
   will-change: opacity, visibility;
 }
 .fade-in-section.is-visible {
