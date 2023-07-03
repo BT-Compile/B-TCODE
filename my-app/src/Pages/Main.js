@@ -27,7 +27,7 @@ export default function App() {
         <nav className="containerBanner">
           <div id="code" className="square" onMouseOver={() => hover('code')} onMouseOut={() => offhover('code')}>
             <Link to="/code" style={{ color: 'inherit', textDecoration: 'inherit' }}>
-              <p id="pagetitle">Home</p>
+              <p>Home</p>
             </Link>
           </div>
 
@@ -57,8 +57,8 @@ export default function App() {
                 positive impact. Whether you're a fellow software engineer, a firm checking out my work, or
                 simply curious about me and what I do, I hope you find something here that interests you.
                 Thank you for visiting my site, and I look forward to getting to know you better!
-                As a software engineer, I believe in the power of technology to make a positive impact on the world,
-                and am committed to using my skills to contribute to this goal.
+                As a software engineer, I can see the power within technology to make a positive impact on the world,
+                and am committed to using my skills to contribute toward this goal.
               </p>
             </div>
 
@@ -72,7 +72,7 @@ export default function App() {
         <FadeInSection>
           <div className='containerText2'>
             <h2 id="languagesTitle">Familiar Languages</h2>
-            <Carousel autoplay='true' wrapAround='true' cellAlign='center' slideWidth='30%' scrollMode='page' speed={15000} withoutControls='true'>
+            <Carousel autoplay='true' wrapAround='true' cellAlign='center' slideWidth='20%' scrollMode='page' speed={15000} withoutControls='true'>
               <img src={js} alt='javascript' className='carimg' />
               <img src={java} alt='java' className='carimg' />
               <img src={html} alt='html' className='carimg' />
@@ -85,6 +85,7 @@ export default function App() {
         <FadeInSection>
           <div className="containerText3">
             <h2 id="headalign">Proficiencies/Skills</h2>
+            <br />
             <br />
             <div id="skills1">
               <h3>Spoken Languages</h3>
@@ -130,9 +131,11 @@ export default function App() {
         </FadeInSection>
       </body >
 
+      <FadeInSection>
       <footer>
         <div id='footertxt'>Benjamin Trang &#169; {(new Date().getFullYear())}</div>
       </footer>
+      </FadeInSection>
 
     </div >
   )
