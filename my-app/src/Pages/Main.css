@@ -16,6 +16,10 @@ footer {
   font-size: 1.5vh;
 }
 
+.headalign {
+  text-align: center;
+}
+
 h1 {
   font-family: 'Bebas Neue', cursive;
 }
@@ -131,7 +135,10 @@ h3 {
 }
 
 .containerText3 {
-  margin: 10vh 20% 0 20%;
+  display: table;
+  table-layout: fixed;
+  border-spacing: 1.25vw;
+  margin: 0 20% 0 20%;
   height: auto;
   text-align: center;
   line-height: 1;
@@ -139,13 +146,13 @@ h3 {
 
 #blockLeft {
   width: 50%;
-  height: auto;
+  max-height: 100%;
   float: left;
 }
 
 #blockRight {
-  width: 50%;
-  height: auto;
+  width: 35%;
+  max-height: 100%;
   float: right;
 }
 
@@ -159,29 +166,13 @@ h3 {
   margin-top: 5%;
 }
 
-#skills1 {
+.skillsbox {
+  display: table-cell;
+  margin: auto;
   max-width: 30%;
   width: 30%;
   height: 15em;
-  float: inline-start;
-  line-height: 1.8;
-  border: gold outset 5pt;
-  background-color: #202124;
-}
-
-#skills2 {
-  width: 30%;
-  height: 15em;
-  display: inline-block;
-  line-height: 1.8;
-  border: gold outset 5pt;
-  background-color: #202124;
-}
-
-#skills3 {
-  width: 30%;
-  height: 15em;
-  float: inline-end;
+  float: inline-block;
   line-height: 1.8;
   border: gold outset 5pt;
   background-color: #202124;
@@ -190,9 +181,9 @@ h3 {
 #introimage {
   display: block;
   width: auto;
-  height: 25em;
+  height: auto;
   max-width: 100%;
-  margin-top: 5vh;
+  margin-top: 25%;
   border: gold outset 5pt;
   border-radius: 50%;
   position: relative;
@@ -201,7 +192,7 @@ h3 {
 
 .carimg {
   margin-top: 5vh;
-  margin-bottom: 5vh;
+  margin-bottom: 15vh;
   display: block;
   border-radius: 25%;
   cursor: pointer;

@@ -27,7 +27,7 @@ export default function App() {
         <nav className="containerBanner">
           <div id="code" className="square" onMouseOver={() => hover('code')} onMouseOut={() => offhover('code')}>
             <Link to="/code" style={{ color: 'inherit', textDecoration: 'inherit' }}>
-              <p>Home</p>
+              <p id='pagetitle'>Home</p>
             </Link>
           </div>
 
@@ -83,16 +83,14 @@ export default function App() {
         </FadeInSection>
 
         <FadeInSection>
+        <h2 className="headalign">Proficiencies/Skills</h2>
           <div className="containerText3">
-            <h2 id="headalign">Proficiencies/Skills</h2>
-            <br />
-            <br />
-            <div id="skills1">
+            <div className='skillsbox'>
               <h3>Spoken Languages</h3>
               <p>English</p>
               <p>Cantonese</p>
             </div>
-            <div id="skills2">
+            <div className='skillsbox'>
               <h3>Information Technology Skills</h3>
               <p>System Analysis</p>
               <p>Cloud Based Architecture</p>
@@ -100,43 +98,38 @@ export default function App() {
               <p>Database Design</p>
               <p>Business Process Modeling and Analysis</p>
             </div>
-            <div id="skills3">
+            <div className='skillsbox'>
               <h3>Platforms and Frameworks</h3>
               <p>AWS</p>
               <p>Azure</p>
               <p>JQuery</p>
-              <p>React.js</p>
+              <p>React</p>
             </div>
           </div>
         </FadeInSection>
 
         <FadeInSection>
           <h2 id="textalign">Links</h2>
-          <div class="containerText">
+          <div className="containerText">
             <div>
-              <a href="https://github.com/BT-Compile"><img id="github" src={github} alt="github image link" /></a>
+              <a href="https://github.com/BT-Compile"><img id="github" src={github} alt="github image link"/></a>
               <p id="textalign">Github</p>
             </div>
-
             <div>
-              <a href="mailto:trangbenjamin@gmail.com?Subject=My%20Query"><img id="email" src={email} alt="email logo" /></a>
+              <a href="mailto:trangbenjamin@gmail.com?Subject=My%20Query"><img id="email" src={email} alt="email logo"/></a>
               <p id="textalign">Email</p>
             </div>
-
             <div>
-              <a href="https://www.linkedin.com/in/benjamin-trang/"><img id="linkedin" src={linkedin} alt="linkedin image link" /></a>
+              <a href="https://www.linkedin.com/in/benjamin-trang/"><img id="linkedin" src={linkedin} alt="linkedin image link"/></a>
               <p id="textalign">Linkedin</p>
             </div>
           </div>
         </FadeInSection>
       </body >
 
-      <FadeInSection>
       <footer>
         <div id='footertxt'>Benjamin Trang &#169; {(new Date().getFullYear())}</div>
       </footer>
-      </FadeInSection>
-
     </div >
   )
 }
