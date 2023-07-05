@@ -3,8 +3,8 @@ import React from 'react';
 import './Components/App.css';
 
 // Images
-import introimage from './assets/headshot.jpg';
-import arrow from './assets/arrow-down.png';
+import introimage from './Components/assets/headshot.jpg';
+import arrow from './Components/assets/arrow-down.png';
 
 // Components
 import Navigation from './Components/Navigation';
