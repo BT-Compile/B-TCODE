@@ -9,12 +9,18 @@ import css from './assets/css.png';
 
 export default function FamiliarLanguages() {
     return (
-        <Carousel autoplay wrapAround  withoutControls slideWidth="20%" speed={30000}>
-            <img src={js} alt="javascript" className="carimg" />
-            <img src={java} alt="java" className="carimg" />
-            <img src={html} alt="html" className="carimg" />
-            <img src={css} alt="css" className="carimg" />
-            <img src={sql} alt="sql" className="carimg" />
-        </Carousel>
+        <div className='containerText2'>
+
+            <h2 id="languagesTitle">Familiar Languages</h2>
+
+            <Carousel autoplay wrapAround withoutControls slideWidth="20%" speed={15000} autoplayInterval={2500}>
+                <img src={js} alt="javascript" className="carimg" />
+                <img src={java} alt="java" className="carimg" />
+                <img src={html} alt="html" className="carimg" />
+                <img src={css} alt="css" className="carimg" />
+                <img src={sql} alt="sql" className="carimg" />
+            </Carousel>
+
+        </div>
     );
 }
