@@ -11,11 +11,6 @@ footer {
   background-color: #202124;
 }
 
-#footertxt {
-  text-align: center;
-  font-size: 1.5vh;
-}
-
 .headalign {
   text-align: center;
 }
@@ -63,6 +58,74 @@ h3 {
   margin: auto;
   margin-top: 3em;
   max-width: 100%;
+}
+
+#hello {
+  margin: 1% 20% 0 20%;
+}
+
+#footertxt {
+  text-align: center;
+  font-size: 1.5vh;
+}
+
+#blockLeft {
+  width: 50%;
+  max-height: 100%;
+  float: left;
+}
+
+#blockRight {
+  width: 35%;
+  max-height: 100%;
+  float: right;
+}
+
+#languagesTitle {
+  text-align: center;
+  margin-bottom: 1vh;
+}
+
+#textalign {
+  text-align: center;
+  margin-top: 5%;
+}
+
+#intropara {
+  max-width: 100%;
+  width: 50%;
+}
+
+#introimage {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  margin: auto;
+  border: gold solid 2pt;
+  border-radius: 50%;
+  position: relative;
+  float:  right;
+}
+
+#github {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  margin: auto;
+}
+
+#email {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  margin: auto;
+}
+
+#linkedin {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  margin: auto;
 }
 
 /* Set the height of elements with the class 'banner' to be responsive using viewport height units, and add a background image, center it, and add text alignment and scrolling if necessary */
@@ -125,7 +188,7 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 2% 20% 5% 20%;
+  margin: 0 20% 5% 20%;
   height: auto;
 }
 
@@ -144,28 +207,6 @@ h3 {
   line-height: 1;
 }
 
-#blockLeft {
-  width: 50%;
-  max-height: 100%;
-  float: left;
-}
-
-#blockRight {
-  width: 35%;
-  max-height: 100%;
-  float: right;
-}
-
-#languagesTitle {
-  text-align: center;
-  margin-bottom: 1vh;
-}
-
-#textalign {
-  text-align: center;
-  margin-top: 5%;
-}
-
 .skillsbox {
   display: table-cell;
   margin: auto;
@@ -177,19 +218,6 @@ h3 {
   border: gold outset 5pt;
   background-color: #202124;
 }
-
-#introimage {
-  display: block;
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  margin-top: 25%;
-  border: gold solid 2pt;
-  border-radius: 50%;
-  position: relative;
-  float: right;
-}
-
 .carimg {
   margin-top: 5vh;
   margin-bottom: 15vh;
@@ -198,27 +226,6 @@ h3 {
   cursor: grab;
   max-width: 100%;
   height: auto;
-}
-
-#github {
-  width: 200px;
-  height: 200px;
-  display: flex;
-  margin: auto;
-}
-
-#email {
-  width: 200px;
-  height: 200px;
-  display: flex;
-  margin: auto;
-}
-
-#linkedin {
-  width: 200px;
-  height: 200px;
-  display: flex;
-  margin: auto;
 }
 
 .fade-in-section {
