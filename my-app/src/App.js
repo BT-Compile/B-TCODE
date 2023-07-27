@@ -7,12 +7,10 @@ import Intro from './Pages/Components/Intro';
 import Navigation from './Pages/Components/Navigation';
 import FadeInSection from './Pages/Components/Fadeinsection';
 import FamiliarLanguages from './Pages/Components/FamiliarLanguages';
+import FamiliarFrameworks from './Pages/Components/FamiliarFrameworks';
 import Footer from './Pages/Components/Footer';
 import Banner from './Pages/Components/Banner';
 import Skills from './Pages/Components/Skills';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Contact from './Pages/Contact';
-import About from './Pages/About';
 
 export default function App() {
   return (
@@ -21,14 +19,7 @@ export default function App() {
         <body>
           <Banner />
 
-          <BrowserRouter>
-            <Navigation />
-
-            <Routes>
-              <Route path="/Contact" element={<Contact />} />
-              <Route path="/About" element={<About />} />
-            </Routes>
-          </BrowserRouter>
+          <Navigation />
 
           <FadeInSection>
             <Intro />
@@ -36,6 +27,10 @@ export default function App() {
 
           <FadeInSection>
             <FamiliarLanguages />
+          </FadeInSection>
+
+          <FadeInSection>
+            <FamiliarFrameworks />
           </FadeInSection>
 
           <FadeInSection>

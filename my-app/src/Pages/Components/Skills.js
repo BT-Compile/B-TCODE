@@ -8,9 +8,10 @@ export default function Skills() {
             <div className="containerText3">
 
                 <div className='skillsbox'>
-                    <h3>Spoken Languages</h3>
-                    <p>&#x2022; English</p>
-                    <p>&#x2022; Cantonese</p>
+                    <h3>Projects</h3>
+                    <p>&#x2022; Discord greeter bot (JavaScript)</p>
+                    <p>&#x2022; Small </p>
+                    <p>&#x2022; This website (React.js)</p>
                 </div>
                 <div className='skillsbox'>
                     <h3>Information Technology Skills</h3>
@@ -20,14 +21,7 @@ export default function Skills() {
                     <p>&#x2022; Database Design</p>
                     <p>&#x2022; Business Process Modeling and Analysis</p>
                 </div>
-                <div className='skillsbox'>
-                    <h3>Platforms and Frameworks</h3>
-                    <p>&#x2022; AWS</p>
-                    <p>&#x2022; Azure</p>
-                    <p>&#x2022; JQuery</p>
-                    <p>&#x2022; React / JSX</p>
-                </div>
-
+                
             </div>
         </>
     );
