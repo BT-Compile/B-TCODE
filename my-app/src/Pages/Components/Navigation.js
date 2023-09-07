@@ -1,5 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { BrowserRouter, Route, Link } from "react-router-dom";
+import App from "./App";
+import About from "./About";
 
 export default function Navigation() {
     return (
@@ -13,12 +15,21 @@ export default function Navigation() {
 
 function SquareLink({ id, to, children }) {
     return (
-        <div id={id} className="square" onMouseOver={() => hover(id)} onMouseOut={() => offhover(id)}>
+        <div id={id} className="square" onMouseOver={() => hover(id)} onMouseOut={() => offhover(id)} onClick={() => MainRouter(id)}>
             <Link to={to} style={{ color: 'inherit', textDecoration: 'inherit' }}>
                 <p>{children}</p>
             </Link>
         </div>
     );
+}
+
+function MainRouter() {
+    return (
+        <BrowserRouter>
+                <Route path="/App.js" component={App} />
+                <Route path="/About.js" component={About} />
+        </BrowserRouter>
+    )
 }
 
 function hover(id) {

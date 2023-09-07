@@ -21,6 +21,7 @@ export default function Skills() {
                     <p>&#x2022; Small Database with GUI and password hashing (Java)</p>
                     <p>&#x2022; Discord greeter bot (JavaScript)</p>
                     <p>&#x2022; This website! (React.js)</p>
+                    <p>&#x2022; Full Information System with JMU partnered firm (C#/Razor pages)</p>
                 </div>
             </div>
         </>

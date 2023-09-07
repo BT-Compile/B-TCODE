@@ -12,6 +12,23 @@ const About = () => {
                 <body>
                     <Banner />
 
+                    <Navigation />
+
+                    <FadeInSection>
+                        
+                    </FadeInSection>
+
+                    <FadeInSection>
+                        
+                    </FadeInSection>
+
+                    <FadeInSection>
+                        
+                    </FadeInSection>
+
+                    <FadeInSection>
+                        
+                    </FadeInSection>
                 </body>
 
                 <Footer />

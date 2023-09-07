@@ -1,16 +1,16 @@
 // Main
 import React from 'react';
-import './Pages/Components/App.css';
+import './App.css';
 
 // Components
-import Intro from './Pages/Components/Intro';
-import Navigation from './Pages/Components/Navigation';
-import FadeInSection from './Pages/Components/Fadeinsection';
-import FamiliarLanguages from './Pages/Components/FamiliarLanguages';
-import FamiliarFrameworks from './Pages/Components/FamiliarFrameworks';
-import Footer from './Pages/Components/Footer';
-import Banner from './Pages/Components/Banner';
-import Skills from './Pages/Components/Skills';
+import Intro from './Intro';
+import Navigation from './Navigation';
+import FadeInSection from './Fadeinsection';
+import FamiliarLanguages from './FamiliarLanguages';
+import FamiliarFrameworks from './FamiliarFrameworks';
+import Footer from './Footer';
+import Banner from './Banner';
+import Skills from './Skills';
 
 export default function App() {
   return (

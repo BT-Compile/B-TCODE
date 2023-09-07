@@ -131,13 +131,13 @@ h3 {
 /* Set the height of elements with the class 'banner' to be responsive using viewport height units, and add a background image, center it, and add text alignment and scrolling if necessary */
 .banner {
   height: 85vh;
-  background-image: url(assets/banner.jpg);
+  background-image: url(./assets/banner.jpg);
   background-size: cover;
 }
 
 /* Set the background image of elements with the class 'hero-image', position and center it to be responsive */
 .hero-image {
-  background-image: url("assets/banner.jpg");
+  background-image: url("./assets/banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
