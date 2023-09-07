@@ -11,13 +11,9 @@ footer {
   background-color: #202124;
 }
 
-.headalign {
-  text-align: center;
-}
-
 h1 {
   font-family: 'Bebas Neue', cursive;
-  color: #202124;
+  color: black;
 }
 
 h2 {
@@ -33,6 +29,10 @@ h3 {
   color: gold;
 }
 
+#hello {
+  margin-top: 2%;
+}
+
 #wrapper {
   margin-left: auto;
   margin-right: auto;
@@ -40,7 +40,6 @@ h3 {
   height: auto;
 }
 
-/* Set the width and height of elements with the IDs 'code', 'about', and 'contact' to be responsive using percentages and viewport height units*/
 #code,
 #about,
 #contact {
@@ -53,33 +52,9 @@ h3 {
   color: gold;
 }
 
-#downarrow {
-  display: flex;
-  position: relative;
-  margin: auto;
-  margin-top: 3em;
-  max-width: 100%;
-}
-
-#hello {
-  margin: 1% 20% 0 20%;
-}
-
 #footertxt {
   text-align: center;
   font-size: 1.5vh;
-}
-
-#blockLeft {
-  width: 50%;
-  max-height: 100%;
-  float: left;
-}
-
-#blockRight {
-  width: 35%;
-  max-height: 100%;
-  float: right;
 }
 
 #languagesTitle {
@@ -92,36 +67,18 @@ h3 {
   margin-top: 5%;
 }
 
-#intropara {
-  max-width: 100%;
-  width: 50%;
-}
-
 #introimage {
-  width: auto;
-  height: auto;
+  box-sizing: border-box;
   max-width: 100%;
-  margin: auto;
-  border: gold solid 2pt;
+  height: auto;
+  margin-left: 4%;
   border-radius: 50%;
-  position: relative;
-  float:  right;
+  border: gold solid 2pt;
+  float: right;
 }
 
-#github {
-  width: 200px;
-  height: 200px;
-  display: flex;
-  margin: auto;
-}
-
-#email {
-  width: 200px;
-  height: 200px;
-  display: flex;
-  margin: auto;
-}
-
+#github,
+#email,
 #linkedin {
   width: 200px;
   height: 200px;
@@ -129,17 +86,10 @@ h3 {
   margin: auto;
 }
 
-/* Set the height of elements with the class 'banner' to be responsive using viewport height units, and add a background image, center it, and add text alignment and scrolling if necessary */
-.banner {
-  height: 85vh;
-  background-image: url("./assets/giphy.gif");
-  background-position: center;
-  background-repeat: no-repeat;
-  max-width: 100%;
-  background-color: white;
+.headalign {
+  text-align: center;
 }
 
-/* Set the text alignment and position of elements with the class 'bannertext' to be centered and slightly offset from the top */
 .bannertext {
   text-align: center;
   position: relative;
@@ -147,10 +97,18 @@ h3 {
   left: 50%;
   font-size: 13vh;
   transform: translate(-50%, -50%);
-  color: white;
 }
 
-/* Set the font size and font family of elements with the class 'container' to be responsive using viewport units */
+.banner {
+  height: 85vh;
+  background-image: url("./assets/banner.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  background-color: white;
+  filter: brightness(75%);
+}
+
 .containerBanner {
   display: flex;
   justify-content: space-between;
@@ -161,7 +119,6 @@ h3 {
   border-collapse: collapse;
 }
 
-/* Set the flex properties, height, background color, and text alignment of elements with the class 'square' to be responsive, and add padding, box sizing, and a cursor pointer */
 .square {
   flex: 1 0 auto;
   height: 100%;
@@ -175,22 +132,11 @@ h3 {
   cursor: pointer;
 }
 
-/* this css is here to shape and work containers for the body*/
-/* shapes the first container in the body*/
 .containerText {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   margin: 0 20% 5% 20%;
-  height: auto;
 }
 
 .containerText2 {
-  margin: auto;
-  height: auto;
-}
-
-.containerText3 {
   display: table;
   table-layout: fixed;
   border-spacing: 1.25vw;
@@ -211,6 +157,7 @@ h3 {
   border: gold outset 5pt;
   background-color: #202124;
 }
+
 .carimg {
   margin-top: 5vh;
   margin-bottom: 15vh;

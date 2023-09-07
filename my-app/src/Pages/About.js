@@ -1,9 +1,11 @@
+// Main
 import React from "react";
 
-import Navigation from './Navigation';
-import FadeInSection from './Fadeinsection';
-import Footer from './Footer';
-import Banner from './Banner';
+// Components
+import Navigation from './Components/Navigation';
+import FadeInSection from './Components/Fadeinsection';
+import Footer from './Components/Footer';
+import Banner from './Components/Banner';
 
 const About = () => {
     return (

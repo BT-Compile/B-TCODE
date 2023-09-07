@@ -1,20 +1,19 @@
 // Main
 import React from 'react';
-import './App.css';
+import './Components/App.css';
 
 // Components
-import Intro from './Intro';
-import Navigation from './Navigation';
-import FadeInSection from './Fadeinsection';
-import FamiliarLanguages from './FamiliarLanguages';
-import FamiliarFrameworks from './FamiliarFrameworks';
-import Footer from './Footer';
-import Banner from './Banner';
-import Skills from './Skills';
+import Intro from './Components/Intro';
+import Navigation from './Components/Navigation';
+import FadeInSection from './Components/Fadeinsection';
+import FamiliarLanguages from './Components/FamiliarLanguages';
+import FamiliarFrameworks from './Components/FamiliarFrameworks';
+import Footer from './Components/Footer';
+import Banner from './Components/Banner';
+import Skills from './Components/Skills';
 
 export default function App() {
   return (
-    <>
       <div id='wrapper'>
         <body>
           <Banner />
@@ -37,9 +36,8 @@ export default function App() {
             <Skills />
           </FadeInSection>
         </body>
-
+        
         <Footer />
       </div>
-    </>
   );
 }

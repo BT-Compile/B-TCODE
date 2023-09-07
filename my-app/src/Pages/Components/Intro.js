@@ -4,8 +4,9 @@ import introimage from './assets/headshot.jpg';
 export default function Intro() {
     return (
         <>
-            <h2 id='hello'>Hello!</h2>
             <div className='containerText'>
+                <h2 id="hello">Hello!</h2>
+                <img id='introimage' src={introimage} alt='intro image' />
                 <div id='intropara'>
                     <p>Welcome to my personal website! My name is Benjamin Trang and I'm an aspiring software engineer.
                         Currently, I am a senior at James Madison University and will be graduating in the fall of 2023.
@@ -20,8 +21,6 @@ export default function Intro() {
                         and am committed to using my skills to contribute toward this goal.
                     </p>
                 </div>
-
-                <img id='introimage' src={introimage} alt='intro image' />
             </div>
         </>
     );
