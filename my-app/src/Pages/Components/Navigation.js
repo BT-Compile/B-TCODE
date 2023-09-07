@@ -25,7 +25,7 @@ function SquareLink({ id, to, children }) {
 
 function MainRouter() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/App">
                 <Route path="/App.js" component={App} />
                 <Route path="/About.js" component={About} />
         </BrowserRouter>

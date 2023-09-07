@@ -8,9 +8,6 @@ export default function Banner() {
             <div className="bannertext">
                 <h1>HOME</h1>
             </div>
-
-            <img id='downarrow' src={arrow} alt='arrow' />
-
         </div>
     );
 }
