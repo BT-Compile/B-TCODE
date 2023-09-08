@@ -1,5 +1,4 @@
 import React from "react";
-import bannergif from "./assets/banner.gif";
 
 export default function Banner() {
     return (
