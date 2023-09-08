@@ -23,8 +23,8 @@ export default function Skills() {
                     <h3>Projects</h3>
                     <ul type="none">
                         <li>Information System with JMU partnered firm (C#/Razor pages)</li>
-                        <li>Small Database with GUI and password hashing (Java)</li>
-                        <li>This website! (React.js)</li>
+                        <li>Database with GUI and password hashing (Java)</li>
+                        <li>This website! (React.js/HTML/CSS)</li>
                         <li>JMU College of Business Plan</li>
                     </ul>
                 </div>

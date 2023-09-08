@@ -86,6 +86,43 @@ h3 {
   margin: auto;
 }
 
+.down-arrow {
+  position: absolute;
+  top: 77vh;
+  left: 98%;
+  width: 0;
+  height: 30px;
+  border: 2px solid;
+  border-radius: 2px;
+  animation: jumpInfinite 1.5s infinite;
+}
+
+.down-arrow:after {
+  content: " ";
+  position: absolute;
+  top: 12px;
+  left: -10px;
+  width: 16px;
+  height: 16px;
+  border-bottom: 4px solid;
+  border-right: 4px solid;
+  border-radius: 4px;
+  transform: rotateZ(45deg);
+  color: black;
+}
+
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
 .headalign {
   text-align: center;
 }
@@ -97,6 +134,7 @@ h3 {
   left: 50%;
   font-size: 13vh;
   transform: translate(-50%, -50%);
+  font-family: 'Bebas Neue', cursive;
 }
 
 .banner {
