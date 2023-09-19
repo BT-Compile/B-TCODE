@@ -29,6 +29,11 @@ h3 {
   color: gold;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 #hello {
   margin-top: 2%;
 }
@@ -38,14 +43,6 @@ h3 {
   margin-right: auto;
   max-width: 100%;
   height: auto;
-}
-
-#code,
-#about,
-#contact {
-  width: 33.33%;
-  height: 15vh;
-  border: 1vh;
 }
 
 #pagetitle {
@@ -88,8 +85,8 @@ h3 {
 
 .down-arrow {
   position: absolute;
-  top: 77vh;
-  left: 98%;
+  top: 70vh;
+  left: 50%;
   width: 0;
   height: 30px;
   border: 2px solid;
@@ -165,9 +162,11 @@ h3 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 2vw;
   box-sizing: border-box;
   cursor: pointer;
+  width: 33.33%;
+  height: 15vh;
+  border: 1vh;
 }
 
 .containerText {

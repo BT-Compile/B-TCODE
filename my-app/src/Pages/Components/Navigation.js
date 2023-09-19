@@ -13,9 +13,11 @@ export default function Navigation() {
 
 function SquareLink({ id, children }) {
     return (
-        <div id={id} className="square" onMouseOver={() => hover(id)} onMouseOut={() => offhover(id)}>
+        <Link to={`/${id}`} className="square" onMouseOver={() => hover(id)} onMouseOut={() => offhover(id)}>
+            <div id={id} className="square">
                 <p>{children}</p>
-        </div>
+            </div>
+        </Link>
     );
 }
 
