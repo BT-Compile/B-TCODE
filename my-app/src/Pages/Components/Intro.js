@@ -2,6 +2,7 @@ import React from 'react';
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import intro from './assets/headshot.jpg';
 =======
 =======
@@ -10,16 +11,21 @@ import intro from './assets/headshot.jpg';
 >>>>>>> parent of 5512290b (Linked pages)
 import introimage from './assets/headshot.jpg';
 >>>>>>> parent of 5512290b (Linked pages)
+=======
+import Fade from 'react-reveal/Fade';
+import introimage from './assets/headshot.jpg';
+>>>>>>> parent of 71021801 (1)
 
 export default function Intro() {
     return (
         <>
+        <Fade top>
             <div className='containerText'>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                 <h2 id='hello'>Hello</h2>
-                <img id='intro' src={intro} alt='intro image' />
+                <img id='introimage' src={introimage} alt='intro image' />
 
                 <p>Welcome to my personal website! My name is Benjamin Trang and I'm an aspiring software engineer and web developer.
                     Currently, I am a senior Computer Information Systems major at James Madison University and will be graduating in the winter of 2023.
@@ -58,6 +64,7 @@ export default function Intro() {
 =======
 >>>>>>> parent of 5512290b (Linked pages)
             </div>
+        </Fade>
         </>
     );
 }
