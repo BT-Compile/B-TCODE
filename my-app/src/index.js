@@ -9,7 +9,7 @@ import Contact from './Pages/Contact';
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
-      <Route path='/' exact Component={App} />
+      <Route path='/Code' exact Component={App} />
       <Route path='/About' Component={About} />
       <Route path='/Contact' Component={Contact} />
     </Routes>
