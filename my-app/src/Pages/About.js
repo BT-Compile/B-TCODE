@@ -1,10 +1,11 @@
 // Main
-import React from "react";
+import React from 'react';
 import './Components/App.css';
 
 // Components
 import Navigation from './Components/Navigation';
 import Footer from './Components/Footer';
+import AboutMe from './Components/AboutMe';
 
 const About = () => {
     return (
@@ -12,8 +13,9 @@ const About = () => {
             <div id='wrapper'>
                 <body>
                     <Navigation />
-                </body>
 
+                    <AboutMe />
+                </body>
                 <Footer />
             </div>
         </>
