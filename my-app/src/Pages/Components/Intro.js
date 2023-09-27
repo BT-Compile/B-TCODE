@@ -1,29 +1,11 @@
 import React from 'react';
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-import intro from './assets/headshot.jpg';
-=======
-=======
->>>>>>> parent of 5512290b (Linked pages)
-=======
->>>>>>> parent of 5512290b (Linked pages)
 import introimage from './assets/headshot.jpg';
->>>>>>> parent of 5512290b (Linked pages)
-=======
-import Fade from 'react-reveal/Fade';
-import introimage from './assets/headshot.jpg';
->>>>>>> parent of 71021801 (1)
 
 export default function Intro() {
     return (
         <>
-        <Fade top>
             <div className='containerText'>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
                 <h2 id='hello'>Hello</h2>
                 <img id='introimage' src={introimage} alt='intro image' />
 
@@ -37,11 +19,7 @@ export default function Intro() {
                     simply curious about me and what I do, I hope you find something here that interests you.
                     Thank you for visiting my site, and I look forward to getting to know you better!
                 </p>
-=======
-=======
->>>>>>> parent of 5512290b (Linked pages)
-=======
->>>>>>> parent of 5512290b (Linked pages)
+
                 <h2 id="hello">Hello</h2>
                 <img id='introimage' src={introimage} alt='intro image' />
                 <div id='intropara'>
@@ -56,15 +34,8 @@ export default function Intro() {
                         Thank you for visiting my site, and I look forward to getting to know you better!
                     </p>
                 </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 5512290b (Linked pages)
-=======
->>>>>>> parent of 5512290b (Linked pages)
-=======
->>>>>>> parent of 5512290b (Linked pages)
             </div>
-        </Fade>
+
         </>
     );
 }
