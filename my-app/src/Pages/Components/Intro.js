@@ -1,7 +1,10 @@
 import React from 'react';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import intro from './assets/headshot.jpg';
 =======
+=======
+>>>>>>> parent of 5512290b (Linked pages)
 import introimage from './assets/headshot.jpg';
 >>>>>>> parent of 5512290b (Linked pages)
 
@@ -9,6 +12,7 @@ export default function Intro() {
     return (
         <>
             <div className='containerText'>
+<<<<<<< HEAD
 <<<<<<< HEAD
                 <h2 id='hello'>Hello</h2>
                 <img id='intro' src={intro} alt='intro image' />
@@ -24,6 +28,8 @@ export default function Intro() {
                     Thank you for visiting my site, and I look forward to getting to know you better!
                 </p>
 =======
+=======
+>>>>>>> parent of 5512290b (Linked pages)
                 <h2 id="hello">Hello</h2>
                 <img id='introimage' src={introimage} alt='intro image' />
                 <div id='intropara'>
@@ -38,6 +44,9 @@ export default function Intro() {
                         Thank you for visiting my site, and I look forward to getting to know you better!
                     </p>
                 </div>
+<<<<<<< HEAD
+>>>>>>> parent of 5512290b (Linked pages)
+=======
 >>>>>>> parent of 5512290b (Linked pages)
             </div>
         </>
