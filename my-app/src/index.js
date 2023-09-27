@@ -10,6 +10,7 @@ ReactDOM.render(
   <BrowserRouter>
     <Routes>
       <Route path='/' exact Component={App} />
+      <Route path='/Code' Component={App} />
       <Route path='/About' Component={About} />
       <Route path='/Contact' Component={Contact} />
     </Routes>
