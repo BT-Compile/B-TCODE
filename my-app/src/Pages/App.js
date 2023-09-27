@@ -5,7 +5,6 @@ import './Components/App.css';
 // Components
 import Intro from './Components/Intro';
 import Navigation from './Components/Navigation';
-import FadeInSection from './Components/Fadeinsection';
 import FamiliarLanguages from './Components/FamiliarLanguages';
 import FamiliarFrameworks from './Components/FamiliarFrameworks';
 import Footer from './Components/Footer';
@@ -14,28 +13,23 @@ import Skills from './Components/Skills';
 
 export default function App() {
   return (
-      <div id='wrapper'>
-        <body>
-          <Banner />
+    <div id='wrapper'>
+      <body>
+        <Banner />
 
-          <Navigation />
+        <Navigation />
 
-          <Intro />
+        <Intro />
 
-          <FadeInSection>
-            <FamiliarLanguages />
-          </FadeInSection>
+        <FamiliarLanguages />
 
-          <FadeInSection>
-            <FamiliarFrameworks />
-          </FadeInSection>
+        <FamiliarFrameworks />
 
-          <FadeInSection>
-            <Skills />
-          </FadeInSection>
-        </body>
-        
-        <Footer />
-      </div>
+        <Skills />
+
+      </body>
+
+      <Footer />
+    </div>
   );
 }

@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 export default function Navigation() {
     return (
         <nav className="containerBanner">
-            <SquareLink id="code" to="/">Home</SquareLink>
-            <SquareLink id="contact" to="/contact">Contact</SquareLink>
-            <SquareLink id="about" to="/about">About</SquareLink>
+            <SquareLink id="Code" to="/">Home</SquareLink>
+            <SquareLink id="Contact" to="/Contact">Contact</SquareLink>
+            <SquareLink id="About" to="/About">About</SquareLink>
         </nav>
     );
 }

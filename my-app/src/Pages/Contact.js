@@ -6,7 +6,7 @@ import './Components/App.css';
 import Navigation from './Components/Navigation';
 import Footer from './Components/Footer';
 
-const About = () => {
+const Contact = () => {
     return (
         <>
             <div id='wrapper'>
@@ -20,4 +20,4 @@ const About = () => {
     );
 }
 
-export default About;
+export default Contact;

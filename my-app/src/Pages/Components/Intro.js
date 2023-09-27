@@ -1,6 +1,5 @@
 import React from 'react';
 import introimage from './assets/headshot.jpg';
-import FadeInSection from './Fadeinsection';
 
 export default function Intro() {
     return (
@@ -8,7 +7,6 @@ export default function Intro() {
             <div className='containerText'>
                 <h2 id="hello">Hello</h2>
                 <img id='introimage' src={introimage} alt='intro image' />
-                <FadeInSection>
                 <div id='intropara'>
                     <p>Welcome to my personal website! My name is Benjamin Trang and I'm an aspiring software engineer and web developer.
                         Currently, I am a senior Computer Information Systems major at James Madison University and will be graduating in the winter of 2023.
@@ -21,7 +19,6 @@ export default function Intro() {
                         Thank you for visiting my site, and I look forward to getting to know you better!
                     </p>
                 </div>
-                </FadeInSection>
             </div>
         </>
     );
