@@ -26,6 +26,7 @@ export default function App() {
         <FamiliarFrameworks />
 
         <Skills />
+
       </body>
 
       <Footer />

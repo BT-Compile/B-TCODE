@@ -1,16 +1,16 @@
-import React from 'react';
+import React from "react";
 
 export default function Skills() {
     return (
         <>
 
-                <h2 className='headalign'>Other Skills and Projects</h2>
+                <h2 className="headalign">Other Skills and Projects</h2>
 
-                <div className='containerText2'>
+                <div className="containerText2">
 
                     <div className='skillsbox'>
                         <h3>Information Technology Skills</h3>
-                        <ul type='none'>
+                        <ul type="none">
                             <li>Business Process Modeling and Analysis</li>
                             <li>Cloud Based Architecture</li>
                             <li>Network & System Analysis</li>
@@ -22,7 +22,7 @@ export default function Skills() {
 
                     <div className='skillsbox'>
                         <h3>Projects</h3>
-                        <ul type='none'>
+                        <ul type="none">
                             <li>Information System with JMU partnered firm (C#/Razor pages)</li>
                             <li>Database with GUI and password hashing (Java)</li>
                             <li>This website! (React.js/HTML/CSS)</li>

@@ -77,50 +77,10 @@ a {
 #github,
 #email,
 #linkedin {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   display: flex;
   margin: auto;
-}
-
-#art {
-  box-sizing: border-box;
-  max-width: 100%;
-  height: auto;
-  width: 400px;
-  border-radius: 15%;
-  float: right;
-  margin-right: 15%;
-  margin-top: 5%;
-  object-fit: cover;
-}
-
-#usn {
-  box-sizing: border-box;
-  max-width: 100%;
-  height: auto;
-  width: 400px;
-  margin-top: 10%;
-  margin-left: 10%;
-  border-radius: 15%;
-  float: left;
-}
-
-#hike {
-  box-sizing: border-box;
-  max-width: 100%;
-  height: auto;
-  width: 400px;
-  border-radius: 15%;
-  float: right;
-  margin-right: 10%;
-  margin-top: 5%;
-}
-
-#ty {
-  text-align: center;
-  color: gold;
-  font-family: 'Bebas Neue', cursive;
 }
 
 .down-arrow {
@@ -152,11 +112,9 @@ a {
   0% {
     margin-top: 0;
   }
-
   50% {
     margin-top: 20px;
   }
-
   100% {
     margin-top: 0;
   }
@@ -245,39 +203,4 @@ a {
   cursor: grab;
   max-width: 100%;
   height: auto;
-}
-
-.containerTextAbout {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 0 20% 0 20%;
-  height: auto;
-}
-
-.blockLeft {
-  width: 50%;
-  height: auto;
-  float: left;
-}
-
-.blockRight {
-  width: 50%;
-  height: auto;
-  float: right;
-}
-
-.finalpara {
-  margin: 0 20% 0% 20%;
-  height: auto;
-  text-align: center;
-}
-
-.linkbox {
-  display: flex;
-}
-
-.linkcolumn {
-  flex: 30%;
-  padding: 5px;
 }
