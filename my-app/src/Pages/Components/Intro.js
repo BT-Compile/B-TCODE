@@ -1,14 +1,12 @@
 import React from 'react';
-import Fade from 'react-reveal/Fade';
-import introimage from './assets/headshot.jpg';
+import intro from './assets/headshot.jpg';
 
 export default function Intro() {
     return (
         <>
-        <Fade top>
             <div className='containerText'>
                 <h2 id='hello'>Hello</h2>
-                <img id='introimage' src={introimage} alt='intro image' />
+                <img id='intro' src={intro} alt='intro image' />
 
                 <p>Welcome to my personal website! My name is Benjamin Trang and I'm an aspiring software engineer and web developer.
                     Currently, I am a senior Computer Information Systems major at James Madison University and will be graduating in the winter of 2023.
@@ -21,7 +19,6 @@ export default function Intro() {
                     Thank you for visiting my site, and I look forward to getting to know you better!
                 </p>
             </div>
-        </Fade>
         </>
     );
 }
