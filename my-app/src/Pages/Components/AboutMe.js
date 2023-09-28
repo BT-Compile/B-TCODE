@@ -13,12 +13,11 @@ export default function AboutMe() {
                     <div className='blockLeft'>
                         <h2>About me...</h2>
                         <p>
-                            Hello! My name is Benjamin Trang (he/him) and I am a aspiring fullstack software engineer. I am currently a senior at James
-                            Madison
-                            University and will be completing my Bachelors in Computer Information Systems in the winter. I am one of two, first generation
-                            children of Cantonese immigrants. I built my first computer at 13 years old and never looked back. I then fell in love with
-                            programming my first year in college, I learned some simple python and that was that. Im hoping to eventually help build a better
-                            world using my code in this growing age of technology.
+                            Hello! My name is Benjamin Trang (he/him) and I am a aspiring fullstack software engineer. I have just graduated from James
+                            Madison University and completed my Bachelors in Business Administration in Computer Information Systems in the winter of 2023. 
+                            I am one of two, first generation children of Cantonese immigrants. I built my first computer at 13 years old and never looked back.
+                            I then fell in love with programming my first year in college, I learned some simple Java and that was that. 
+                            Im hoping to eventually help build a better world using my code in this exponentially growing age of technology.
                         </p>
                     </div>
                     <div className='blockRight'>
@@ -26,8 +25,7 @@ export default function AboutMe() {
                     </div>
                 </div>
 
-                <br />
-                <br />
+                <div className='spacer'></div>
 
                 <div className='containerTextAbout'>
                     <div className='blockLeft'>
@@ -48,8 +46,7 @@ export default function AboutMe() {
                     </div>
                 </div>
 
-                <br />
-                <br />
+                <div className='spacer'></div>
 
                 <div className='containerTextAbout'>
                     <div className='blockLeft'>
@@ -59,7 +56,7 @@ export default function AboutMe() {
                             family's restaurant and grew up around food. Typically in Asian cultures food is a sign of love and I do enjoy cooking for
                             my loved ones. Another one of my hobbies (or a money sink) is building keyboards. A few of my best friends got me into
                             building them and now typing with a regular 'keeb' is like using a plastic fork on a steak. Lastly, I really enjoy listening
-                            to all types of music. Some of my favorite artists are Kendrick Lamar, Paramore, and Joji. My partner and I love going to
+                            to all types of music. Two of my favorite artists are Kendrick Lamar and Paramore. My partner and I love going to
                             concerts and she is the one that took me to my first. Hopefully some of these resonate with you and definitely feel
                             free to reach out to me if you wanna chat about these topics!
                         </p>
@@ -69,23 +66,20 @@ export default function AboutMe() {
                     </div>
                 </div>
 
-                <br />
-                <br />
+                <div className='spacer'></div>
 
                 <div className='finalpara'>
                     <h2>The Purpose...</h2>
                     <p>
                         I created this website to get myself out there into the tech world. As I have stated before I think that technology is the best way
                         to make a difference on our planet and society. I want my code to be able to make a positive impact on the the world and
-                        hopefully
-                        work at a place that shares the same values as myself.
+                        hopefully work at a place that shares the same values as myself.
                     </p>
                 </div>
                 <h3 id='ty'>Thanks for reading</h3>
             </div>
 
-            <br />
-            <br />
+            <div className='spacer'></div>
         </>
     );
 }

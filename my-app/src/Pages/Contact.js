@@ -18,10 +18,7 @@ const Contact = () => {
                 </body>
                 <br />
                 <br />
-                <br />
-                <br />
-                <br />
-                <br />
+                <div className='spacer'></div>
                 <Footer />
             </div>
         </>
