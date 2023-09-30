@@ -6,6 +6,7 @@ import java from './assets/java.png';
 import html from './assets/HTML.png';
 import sql from './assets/sql.png';
 import css from './assets/css.png';
+import CSharp from './assets/CSharp.png';
 
 export default function FamiliarLanguages() {
     return (
@@ -19,6 +20,7 @@ export default function FamiliarLanguages() {
                     <img src={html} alt="html" className="carimg" />
                     <img src={css} alt="css" className="carimg" />
                     <img src={sql} alt="sql" className="carimg" />
+                    <img src={CSharp} alt="CSharp" className="carimg" />
                 </Carousel>
 
         </>
