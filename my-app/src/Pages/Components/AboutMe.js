@@ -3,12 +3,14 @@ import './App.css';
 import art from './assets/art.jpg';
 import usn from './assets/usn.jpg';
 import hike from './assets/hike.jpg';
+import FadeInSection from './Fade';
 
 export default function AboutMe() {
     return (
         <>
             <br />
             <div>
+                <FadeInSection>
                 <div className='containerTextAbout'>
                     <div className='blockLeft'>
                         <h2>About me...</h2>
@@ -24,9 +26,11 @@ export default function AboutMe() {
                         <img id='art' src={art} alt='art' />
                     </div>
                 </div>
+                </FadeInSection>
 
                 <div className='spacer'></div>
 
+                <FadeInSection>
                 <div className='containerTextAbout'>
                     <div className='blockLeft'>
                         <img id='usn' src={usn} alt='LAN photo' />
@@ -45,9 +49,11 @@ export default function AboutMe() {
                         </p>
                     </div>
                 </div>
+                </FadeInSection>
 
                 <div className='spacer'></div>
 
+                <FadeInSection>
                 <div className='containerTextAbout'>
                     <div className='blockLeft'>
                         <h2>Other Hobbies...</h2>
@@ -65,9 +71,11 @@ export default function AboutMe() {
                         <img id='hike' src={hike} alt='hike' />
                     </div>
                 </div>
+                </FadeInSection>
 
                 <div className='spacer'></div>
 
+                <FadeInSection>
                 <div className='finalpara'>
                     <h2>The Purpose...</h2>
                     <p>
@@ -77,6 +85,7 @@ export default function AboutMe() {
                     </p>
                 </div>
                 <h3 id='ty'>Thanks for reading</h3>
+                </FadeInSection>
             </div>
 
             <div className='spacer'></div>

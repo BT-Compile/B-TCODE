@@ -6,6 +6,7 @@ import './Components/App.css';
 import Navigation from './Components/Navigation';
 import Footer from './Components/Footer';
 import LinksSection from './Components/LinksSection';
+import FadeInSection from './Components/Fade';
 
 const Contact = () => {
     return (
@@ -14,7 +15,9 @@ const Contact = () => {
                 <body>
                     <Navigation />
 
-                    <LinksSection />
+                    <FadeInSection>
+                        <LinksSection />
+                    </FadeInSection>
                 </body>
                 <br />
                 <br />

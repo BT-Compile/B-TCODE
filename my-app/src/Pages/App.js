@@ -10,6 +10,7 @@ import FamiliarFrameworks from './Components/FamiliarFrameworks';
 import Footer from './Components/Footer';
 import Banner from './Components/Banner';
 import Skills from './Components/Skills';
+import FadeInSection from './Components/Fade';
 
 export default function App() {
   return (
@@ -19,14 +20,21 @@ export default function App() {
 
         <Navigation />
 
-        <Intro />
+        <FadeInSection>
+          <Intro />
+        </FadeInSection>
 
-        <FamiliarLanguages />
+        <FadeInSection>
+          <FamiliarLanguages />
+        </FadeInSection>
 
-        <FamiliarFrameworks />
+        <FadeInSection>
+          <FamiliarFrameworks />
+        </FadeInSection>
 
-        <Skills />
-
+        <FadeInSection>
+          <Skills />
+        </FadeInSection>
       </body>
 
       <Footer />
