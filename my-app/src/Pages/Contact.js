@@ -21,6 +21,7 @@ const Contact = () => {
                 </body>
                 <br />
                 <br />
+                <br />
                 <div className='spacer'></div>
                 <Footer />
             </div>
