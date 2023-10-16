@@ -11,31 +11,22 @@ export default function AboutMe() {
             <br />
             <div>
                 <FadeInSection>
-                <div className='containerTextAbout'>
-                    <div className='blockLeft'>
+                    <div className='containerTextAbout'>
+                        <img src={art} alt="art" id='art'></img>
                         <h2>About me...</h2>
                         <p>
                             Hello! My name is Benjamin Trang (he/him) and I am a aspiring fullstack software engineer. I have just graduated from James
-                            Madison University and completed my Bachelors in Business Administration in Computer Information Systems in the winter of 2023. 
+                            Madison University and completed my Bachelors in Business Administration in Computer Information Systems in the winter of 2023.
                             I am one of two, first generation children of Cantonese immigrants. I built my first computer at 13 years old and never looked back.
-                            I then fell in love with programming my first year in college, I learned some simple Java and that was that. 
+                            I then fell in love with programming my first year in college, I learned some simple Java and that was that.
                             Im hoping to eventually help build a better world using my code in this exponentially growing age of technology.
                         </p>
                     </div>
-                    <div className='blockRight'>
-                        <img id='art' src={art} alt='art' />
-                    </div>
-                </div>
                 </FadeInSection>
 
-                <div className='spacer'></div>
-
                 <FadeInSection>
-                <div className='containerTextAbout'>
-                    <div className='blockLeft'>
-                        <img id='usn' src={usn} alt='LAN photo' />
-                    </div>
-                    <div className='blockRight'>
+                    <div className='containerTextAbout'>
+                        <img src={usn} alt="usn" id='usn'></img>
                         <h2>Esports...</h2>
                         <p>
                             After completing my associates degree and completing my transfer, I took a two year hiatus. I wanted to pursue a
@@ -48,14 +39,11 @@ export default function AboutMe() {
                             Toward the end of 2019, I decided to retire to finish college at JMU and spend more time with my friends and family.
                         </p>
                     </div>
-                </div>
                 </FadeInSection>
 
-                <div className='spacer'></div>
-
                 <FadeInSection>
-                <div className='containerTextAbout'>
-                    <div className='blockLeft'>
+                    <div className='containerTextAbout'>
+                        <img src={hike} alt="hike" id='hike'></img>
                         <h2>Other Hobbies...</h2>
                         <p>
                             I have many interests and hobbies that keep me sane. I love cooking, art, building keyboards, and music. I grew up in my
@@ -67,28 +55,23 @@ export default function AboutMe() {
                             free to reach out to me if you wanna chat about these topics!
                         </p>
                     </div>
-                    <div className='blockRight'>
-                        <img id='hike' src={hike} alt='hike' />
-                    </div>
-                </div>
                 </FadeInSection>
-
-                <div className='spacer'></div>
 
                 <FadeInSection>
-                <div className='finalpara'>
-                    <h2>The Purpose...</h2>
-                    <p>
-                        I created this website to get myself out there into the tech world. As I have stated before I think that technology is the best way
-                        to make a difference on our planet and society. I want my code to be able to make a positive impact on the the world and
-                        hopefully work at a place that shares the same values as myself.
-                    </p>
-                </div>
-                <h3 id='ty'>Thanks for reading</h3>
+                    <div className='containerTextAbout'>
+                        <div className='finalpara'>
+                            <h2>The Purpose</h2>
+                            <p>
+                                I created this website to get myself out there into the tech world. As I have stated before I think that technology is the best way
+                                to make a difference on our planet and society. I want my code to be able to make a positive impact on the the world and
+                                hopefully work at a place that shares the same values as myself.
+                            </p>
+                        </div>
+                        <h3 id='ty'>Thanks for reading</h3>
+                    </div>
                 </FadeInSection>
             </div>
-
-            <div className='spacer'></div>
         </>
     );
 }
+
