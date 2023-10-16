@@ -1,6 +1,5 @@
 import React from 'react';
 import Carousel from "nuka-carousel";
-
 import js from './assets/js.png';
 import java from './assets/java.png';
 import html from './assets/HTML.png';
