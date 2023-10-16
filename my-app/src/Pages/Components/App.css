@@ -282,7 +282,7 @@ a {
   visibility: visible;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 500px) {
   #introimage {
     height: 150px;
     margin-left: 10%;
