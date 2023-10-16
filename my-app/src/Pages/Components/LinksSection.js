@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import githubImage from './assets/git.png';
-import email from './assets/Email.png';
-import linkedin from './assets/link.png';
+import githubImage from './assets/git.svg';
+import email from './assets/email.svg';
+import linkedin from './assets/link.svg';
 
 export default function LinksSection() {
     return (
