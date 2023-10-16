@@ -16,12 +16,14 @@ export default function LinksSection() {
                     </a>
                     <h3 id='textalign'>Github</h3>
                 </div>
+
                 <div className='linkcolumn'>
                     <a href='mailto:trangbenjamin@gmail.com?Subject=My%20Query'>
                         <img id='email' src={email} alt='email' />
                     </a>
                     <h3 id='textalign'>Email</h3>
                 </div>
+                
                 <div className='linkcolumn'>
                     <a href='https://www.linkedin.com/in/benjamin-trang/'>
                         <img id='linkedin' src={linkedin} alt='linkedin' />

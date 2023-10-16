@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer>
-      <div id='footertxt'>- Benjamin Trang &#169; {new Date().getFullYear()} -</div>
+    <footer className='footertxt'>
+      <p>-- Benjamin Trang, {new Date().getFullYear()} &#169; --</p>
     </footer>
   );
 }

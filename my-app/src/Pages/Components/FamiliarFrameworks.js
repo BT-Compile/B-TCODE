@@ -9,7 +9,7 @@ import netcore from './assets/netcore.png';
 export default function FamiliarFrameworks() {
     return (
         <>
-                <h2 id="languagesTitle">Familiar Frameworks and Platforms</h2>
+                <h2 id="languagesTitle">Familiar Frameworks & Platforms</h2>
                 <Carousel autoplay wrapAround withoutControls slideWidth="20%" speed={15000} scrollMode='remainder'>
                     <img src={aws} alt="aws" className="carimg" />
                     <img src={azure} alt="azure" className="carimg" />

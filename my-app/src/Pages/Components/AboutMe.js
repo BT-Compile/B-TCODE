@@ -13,11 +13,11 @@ export default function AboutMe() {
                 <FadeInSection>
                     <div className='containerTextAbout'>
                         <img src={art} alt="art" id='art'></img>
-                        <h2>About me...</h2>
+                        <h2>About me</h2>
                         <p>
                             Hello! My name is Benjamin Trang (he/him) and I am a aspiring fullstack software engineer. I have just graduated from James
                             Madison University and completed my Bachelors in Business Administration in Computer Information Systems in the winter of 2023.
-                            I am one of two, first generation children of Cantonese immigrants. I built my first computer at 13 years old and never looked back.
+                            I built my first computer at 13 years old and never looked back.
                             I then fell in love with programming my first year in college, I learned some simple Java and that was that.
                             Im hoping to eventually help build a better world using my code in this exponentially growing age of technology.
                         </p>
@@ -27,7 +27,7 @@ export default function AboutMe() {
                 <FadeInSection>
                     <div className='containerTextAbout'>
                         <img src={usn} alt="usn" id='usn'></img>
-                        <h2>Esports...</h2>
+                        <h2>Esports</h2>
                         <p>
                             After completing my associates degree and completing my transfer, I took a two year hiatus. I wanted to pursue a
                             personal passion of mine, which was to play video games for money! As my family loves to remind me, I was born with the
@@ -44,15 +44,15 @@ export default function AboutMe() {
                 <FadeInSection>
                     <div className='containerTextAbout'>
                         <img src={hike} alt="hike" id='hike'></img>
-                        <h2>Other Hobbies...</h2>
+                        <h2>Other Hobbies</h2>
                         <p>
-                            I have many interests and hobbies that keep me sane. I love cooking, art, building keyboards, and music. I grew up in my
-                            family's restaurant and grew up around food. Typically in Asian cultures food is a sign of love and I do enjoy cooking for
-                            my loved ones. Another one of my hobbies (or a money sink) is building keyboards. A few of my best friends got me into
-                            building them and now typing with a regular 'keeb' is like using a plastic fork on a steak. Lastly, I really enjoy listening
-                            to all types of music. Two of my favorite artists are Kendrick Lamar and Paramore. My partner and I love going to
-                            concerts and she is the one that took me to my first. Hopefully some of these resonate with you and definitely feel
-                            free to reach out to me if you wanna chat about these topics!
+                            I have many interests and hobbies that keep me sane. I love cooking, art, building keyboards, and music. I am one of two, 
+                            first generation children of Cantonese immigrants and I grew up in my  family's restaurant and grew up around food. 
+                            Typically in Asian cultures food is a sign of love and I do enjoy cooking for my loved ones. Another one of my hobbies 
+                            is building keyboards. A few of my best friends got me into building them and now typing with a regular one is like nails 
+                            on a chalkboard. Lastly, I really enjoy listening to all types of music. Two of my favorite artists are Kendrick Lamar and Paramore.
+                            My partner and I love going to concerts and she is the one that took me to my first. Hopefully some of these resonate with 
+                            you and definitely feel free to reach out to me if you wanna chat about these topics!
                         </p>
                     </div>
                 </FadeInSection>

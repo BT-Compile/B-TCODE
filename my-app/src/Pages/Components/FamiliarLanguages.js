@@ -14,10 +14,10 @@ export default function FamiliarLanguages() {
                 <Carousel autoplay wrapAround withoutControls slideWidth="20%" speed={15000} scrollMode='remainder'>
                     <img src={js} alt="javascript" className="carimg" />
                     <img src={java} alt="java" className="carimg" />
+                    <img src={CSharp} alt="CSharp" className="carimg" />
                     <img src={html} alt="html" className="carimg" />
                     <img src={css} alt="css" className="carimg" />
                     <img src={sql} alt="sql" className="carimg" />
-                    <img src={CSharp} alt="CSharp" className="carimg" />
                 </Carousel>
 
         </>

@@ -13,7 +13,6 @@ const About = () => {
             <div id='wrapper'>
                 <body>
                     <Navigation />
-
                     <AboutMe />
                 </body>
                 <Footer />
