@@ -282,6 +282,105 @@ a {
   visibility: visible;
 }
 
+@media (max-width: 1024px){
+  #introimage {
+    height: 150px;
+    margin-left: 10%;
+    border-radius: 10%;
+    border: none;
+    float: right;
+    border: silver outset 2px;
+  }
+
+  #art,
+  #usn,
+  #hike {
+    max-width: 100%;
+    height: auto;
+    margin: 5%;
+    width: 400px;
+    border-radius: 15%;
+    border: none;
+  }
+
+  #github,
+  #email,
+  #linkedin {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    margin: auto;
+  }
+
+  .linkbox {
+    display: table;
+    margin: auto; 
+  }
+
+  .linkcolumn {
+    display: table-row;
+  }
+
+  .containerTextAbout h2 {
+    text-align: center;
+  }
+
+  .bannertext {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    font-size: 5vh;
+    transform: translate(-50%, -50%);
+    font-family: 'Bebas Neue', cursive;
+  }
+
+  .containerText,
+  .containerTextAbout {
+    margin: 0 5% 5% 5%;
+    text-align: justify;
+  }
+
+  .containerTextAbout h2 {
+    text-align: center;
+  }
+
+  .containerTextIntro {
+    margin: 0 5% 5% 5%;
+    text-align: start;
+  }
+
+  .carimg {
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    display: block;
+    border-radius: 25%;
+    cursor: grab;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .containerText2 {
+    display: flex;
+    table-layout: fixed;
+    flex-direction: column;
+    margin: 0 5% 5% 5%;
+    height: auto;
+  }
+
+  .skillsbox {
+    background-color: #202124;
+    font-size: large;
+    height: 25vh;
+    width: auto;
+    line-height: 1.8;
+    margin: 2%;
+    text-align: center;
+    padding: 5%;
+    border-radius: 2%;
+  }
+}
+
 @media (max-width: 500px) {
   #introimage {
     height: 150px;
