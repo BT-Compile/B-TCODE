@@ -4,7 +4,7 @@ import introimage from './assets/headshot.jpg';
 export default function Intro() {
     return (
         <>
-            <div className='containerText'>
+            <div className='containerTextIntro'>
                 <h2 id="hello">Hello</h2>
                 <img id='introimage' src={introimage} alt='intro image' />
                 <div>

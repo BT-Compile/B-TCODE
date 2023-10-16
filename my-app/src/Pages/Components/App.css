@@ -227,6 +227,11 @@ a {
   line-height: 1;
 }
 
+.containerTextIntro {
+  margin: 0 5% 5% 5%;
+  text-align: justify;
+}
+
 .containerTextAbout {
   margin: 0 20% 5% 20%;
 }
@@ -337,6 +342,11 @@ a {
     text-align: justify;
   }
 
+  .containerTextIntro {
+    margin: 0 5% 5% 5%;
+    text-align: start;
+  }
+
   .carimg {
     margin-top: 5vh;
     margin-bottom: 10vh;
@@ -363,7 +373,7 @@ a {
   .skillsbox {
     background-color: #202124;
     font-size: large;
-    height: 30vh;
+    height: 40vh;
     width: auto;
     line-height: 1.8;
     margin: 2%;
