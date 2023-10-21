@@ -8,7 +8,7 @@ export default function Banner() {
                 <Navigation />
                 <div className="bannertext">
                     <h1>B/TCODE</h1>
-                    <p>Web Developer & Software</p>
+                    <p>Web Developer & Software Engineering</p>
                 </div>
                 <div class="down-arrow"></div>
             </div>

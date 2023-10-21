@@ -49,19 +49,6 @@ a {
   height: auto;
 }
 
-#art {
-  max-width: 100%;
-  height: auto;
-  width: 400px;
-  border-radius: 15%;
-  margin-top: auto;
-  margin-left: 10%;
-  margin-right: 5%;
-  margin-bottom: 5%;
-  float: right;
-  border: silver outset 4px;
-}
-
 #github,
 #email,
 #linkedin {
@@ -74,6 +61,19 @@ a {
   border: #083947 outset 3px
 }
 
+#art {
+  max-width: 100%;
+  height: auto;
+  width: 400px;
+  border-radius: 15%;
+  margin-top: auto;
+  margin-left: 10%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  float: right;
+  border: silver outset 5px;
+}
+
 #usn {
   max-width: 100%;
   height: auto;
@@ -84,7 +84,7 @@ a {
   margin-left: 5%;
   margin-bottom: 5%;
   float: left;
-  border: silver outset 4px;
+  border: silver outset 5px;
 }
 
 #hike {
@@ -97,7 +97,7 @@ a {
   margin-right: 5%;
   margin-bottom: 5%;
   float: right;
-  border: silver outset 4px;
+  border: silver outset 5px;
 }
 
 #introimage {
@@ -266,13 +266,13 @@ a {
 
 .skillsbox {
   display: table-cell;
+  padding-top: 1vh;
   margin: auto;
   width: 30%;
   height: 30vh;
   float: inline-block;
   line-height: 1.8;
   border: #083947 double 5px;
-  border-radius: 2%;
   border-left: none;
   border-right: none;
 }
@@ -412,7 +412,6 @@ a {
     margin: 2%;
     text-align: center;
     padding: 5%;
-    border-radius: 2%;
   }
 }
 
@@ -442,7 +441,6 @@ a {
     margin: auto;
     width: 400px;
     border-radius: 15%;
-    border: none;
   }
 
   .navContainer {
@@ -463,10 +461,10 @@ a {
   .bannertext {
     text-align: center;
     position: relative;
-    top: 40%;
+    top: 30%;
     left: 50%;
     font-size: 5vh;
-    transform: translate(-50%, -40%);
+    transform: translate(-50%, -30%);
     font-family: 'Bebas Neue', cursive;
   }
 
@@ -518,12 +516,11 @@ a {
   .skillsbox {
     background-color: inherit;
     font-size: large;
-    height: 32vh;
+    height: 35vh;
     width: auto;
     line-height: 1.8;
     margin: 2%;
     text-align: center;
     padding: 5%;
-    border-radius: 2%;
   }
 }
