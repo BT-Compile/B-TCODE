@@ -18,8 +18,6 @@ export default function App() {
       <body>
         <Banner />
 
-        <Navigation />
-
         <FadeInSection>
           <Intro />
         </FadeInSection>

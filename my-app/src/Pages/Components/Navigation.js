@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function Navigation() {
     return (
-        <nav className="containerBanner">
+        <nav className="navContainer">
             <SquareLink id="Code" to="/">Home</SquareLink>
             <SquareLink id="Contact" to="/Contact">Contact</SquareLink>
             <SquareLink id="About" to="/About">About</SquareLink>
@@ -22,11 +22,9 @@ function SquareLink({ id, children }) {
 }
 
 function hover(id) {
-    document.getElementById(id).style.background = 'white';
-    document.getElementById(id).style.color = 'black';
+    document.getElementById(id).style.color = 'orange';
 }
 
 function offhover(id) {
-    document.getElementById(id).style.background = '';
     document.getElementById(id).style.color = '';
 }

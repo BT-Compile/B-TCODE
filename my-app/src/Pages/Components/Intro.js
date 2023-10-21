@@ -19,8 +19,7 @@ export default function Intro() {
                         Thank you for visiting my site, and I look forward to getting to know you better!
                     </p>
                 </div>
-            </div>
-
+            </div>  
         </>
     );
 }

@@ -14,6 +14,7 @@ export default function AboutMe() {
                     <div className='containerTextAbout'>
                         <img src={art} alt="art" id='art'></img>
                         <h2>About me</h2>
+                        <hr />
                         <p>
                             Hello! My name is Benjamin Trang (he/him) and I am a aspiring fullstack software engineer. I have just graduated from James
                             Madison University and completed my Bachelors in Business Administration in Computer Information Systems in the winter of 2023.
@@ -28,6 +29,7 @@ export default function AboutMe() {
                     <div className='containerTextAbout'>
                         <img src={usn} alt="usn" id='usn'></img>
                         <h2>Esports</h2>
+                        <hr />
                         <p>
                             After completing my associates degree and completing my transfer, I took a two year hiatus. I wanted to pursue a
                             personal passion of mine, which was to play video games for money! As my family loves to remind me, I was born with the
@@ -45,14 +47,13 @@ export default function AboutMe() {
                     <div className='containerTextAbout'>
                         <img src={hike} alt="hike" id='hike'></img>
                         <h2>Other Hobbies</h2>
+                        <hr />
                         <p>
-                            I have many interests and hobbies that keep me sane. I love cooking, art, building keyboards, and music. I am one of two, 
+                            I have many interests and hobbies that keep me sane. I love cooking, art, building keyboards, gaming, bourbon and music. I am one of two, 
                             first generation children of Cantonese immigrants and I grew up in my  family's restaurant and grew up around food. 
                             Typically in Asian cultures food is a sign of love and I do enjoy cooking for my loved ones. Another one of my hobbies 
                             is building keyboards. A few of my best friends got me into building them and now typing with a regular one is like nails 
-                            on a chalkboard. Lastly, I really enjoy listening to all types of music. Two of my favorite artists are Kendrick Lamar and Paramore.
-                            My partner and I love going to concerts and she is the one that took me to my first. Hopefully some of these resonate with 
-                            you and definitely feel free to reach out to me if you wanna chat about these topics!
+                            on a chalkboard. Hopefully, a few of these resonate with you and definitely feel free to reach out to me if you wanna chat about these topics!
                         </p>
                     </div>
                 </FadeInSection>
@@ -61,6 +62,7 @@ export default function AboutMe() {
                     <div className='containerTextAbout'>
                         <div className='finalpara'>
                             <h2>The Purpose</h2>
+                            <hr />
                             <p>
                                 I created this website to get myself out there into the tech world. As I have stated before I think that technology is the best way
                                 to make a difference on our planet and society. I want my code to be able to make a positive impact on the the world and
