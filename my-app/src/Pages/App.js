@@ -16,7 +16,9 @@ export default function App() {
   return (
     <div id='wrapper'>
       <body>
-        <Banner />
+        <FadeInSection>
+          <Banner />
+        </FadeInSection>
 
         <FadeInSection>
           <Intro />

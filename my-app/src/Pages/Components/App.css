@@ -130,7 +130,6 @@ a {
   top: 85vh;
   left: 50%;
   width: 0;
-  height: 30px;
   border: 2px solid;
   border-radius: 2px;
   animation: jumpInfinite 1.5s infinite;
@@ -181,7 +180,6 @@ a {
   font-size: 13vh;
   transform: translate(-50%, -15%);
   font-family: 'Bebas Neue', cursive;
-  color: #083947;
 }
 
 .bannertext p {
@@ -199,9 +197,8 @@ a {
 
 .navContainer {
   display: flex;
-  font-size: 2vw;
+  font-size: 24pt;
   font-family: 'Bebas Neue', cursive;
-  border-collapse: collapse;
 }
 
 .square {
@@ -221,7 +218,7 @@ a {
   height: auto;
   background-color: #282C34;
   color: white;
-  border: #445579 solid 5pt;
+  border: #445579 solid 5px;
   border-left: none;
   border-right: none;
 }
@@ -516,7 +513,7 @@ a {
   .skillsbox {
     background-color: inherit;
     font-size: large;
-    height: 35vh;
+    height: 40vh;
     width: auto;
     line-height: 1.8;
     margin: 2%;
