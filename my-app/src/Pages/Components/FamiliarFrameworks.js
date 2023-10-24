@@ -9,16 +9,18 @@ import netcore from './assets/netcore.png';
 export default function FamiliarFrameworks() {
     return (
         <>
-            <h2 className="languagesTitle">Familiar Frameworks & Platforms</h2>
-            <hr />
-            <br />
-            <Carousel autoplay wrapAround withoutControls slideWidth="20%" speed={15000} scrollMode='remainder'>
-                <img src={aws} alt="aws" className="carimg" />
-                <img src={azure} alt="azure" className="carimg" />
-                <img src={jquery} alt="jquery" className="carimg" />
-                <img src={react} alt="react" className="carimg" />
-                <img src={netcore} alt="netcore" className="carimg" />
-            </Carousel>
+                <br />
+                <h2 className="languagesTitle">Familiar Frameworks & Platforms</h2>
+                <hr />
+                <Carousel autoplay wrapAround withoutControls slideWidth="20%" speed={15000} scrollMode='remainder'>
+                    <img src={aws} alt="aws" className="carimg" />
+                    <img src={azure} alt="azure" className="carimg" />
+                    <img src={jquery} alt="jquery" className="carimg" />
+                    <img src={react} alt="react" className="carimg" />
+                    <img src={netcore} alt="netcore" className="carimg" />
+                </Carousel>
+                <br />
+                <br />
         </>
     );
 }

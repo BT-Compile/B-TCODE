@@ -14,10 +14,7 @@ const Contact = () => {
             <div id='wrapper'>
                 <body>
                     <Navigation />
-
-                    <FadeInSection>
-                        <LinksSection />
-                    </FadeInSection>
+                    <LinksSection />
                 </body>
                 <br />
                 <br />

@@ -7,14 +7,17 @@ body {
 }
 
 footer {
-  height: 5vh;
-  background-color: white;
+  background-color: transparent;
+  color: inherit;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 12pt;
 }
 
 hr {
-  border: solid #083947 0;
+  border: solid aquamarine 0;
   border-width: 3px;
-  max-width: 50px;
+  max-width: 70px;
   margin: auto;
   margin-bottom: 20px;
   border-top: 1px;
@@ -27,14 +30,15 @@ h1 {
 
 h2 {
   text-align: center;
-  color: #083947;
   font-size: 2em;
   font-family: 'Bebas Neue', cursive;
+  text-shadow: 2px 4px 4px grey;
 }
 
 h3 {
   font-family: 'Bebas Neue', cursive;
-  color: black;
+  font-size: larger;
+  text-shadow: 2px 4px 4px grey;
 }
 
 a {
@@ -58,11 +62,12 @@ a {
   margin: auto;
   background-image: url("./assets/wave.gif");
   border-radius: 50%;
-  border: #083947 outset 3px
+  border: black solid 5px
 }
 
 #art {
-  max-width: 100%;
+  box-sizing: border-box;
+  background-image: url("./assets/lines.jpg");
   height: auto;
   width: 400px;
   border-radius: 15%;
@@ -71,7 +76,6 @@ a {
   margin-right: 5%;
   margin-bottom: 5%;
   float: right;
-  border: silver outset 5px;
 }
 
 #usn {
@@ -84,7 +88,6 @@ a {
   margin-left: 5%;
   margin-bottom: 5%;
   float: left;
-  border: silver outset 5px;
 }
 
 #hike {
@@ -97,27 +100,22 @@ a {
   margin-right: 5%;
   margin-bottom: 5%;
   float: right;
-  border: silver outset 5px;
 }
 
 #introimage {
-  max-width: 100%;
   height: auto;
   margin-left: 4%;
-  margin-top: -2%;
+  margin-top: -8%;
   border-radius: 50%;
   float: right;
   display: flex;
-  border: gold solid 2pt;
-}
-
-#pagetitle {
-  color: gold;
+  border: white solid 2px;
 }
 
 #textalign {
   text-align: center;
   margin-top: 5%;
+  text-shadow: 2px 4px 4px grey;
 }
 
 #ty {
@@ -163,11 +161,6 @@ a {
   }
 }
 
-.headalign {
-  margin-top: 5%;
-  text-align: center;
-}
-
 .finalpara {
   text-align: center;
 }
@@ -184,6 +177,7 @@ a {
 
 .bannertext p {
   font-size: 6vh;
+  text-shadow: 2px 4px 4px grey;
 }
 
 .banner {
@@ -197,7 +191,7 @@ a {
 
 .navContainer {
   display: flex;
-  font-size: 24pt;
+  font-size: 4vh;
   font-family: 'Bebas Neue', cursive;
 }
 
@@ -210,22 +204,29 @@ a {
   padding-left: 10px;
   padding-right: 10px;
   margin-top: 5px;
-  color: #083947;
+  color: black;
+  text-shadow: 2px 4px 4px grey;
 }
 
 .containerTextIntro {
-  padding: 5% 20% 5% 20%;
-  height: auto;
-  background-color: #282C34;
+  padding: 10% 20% 10% 20%;
   color: white;
-  border: #445579 solid 5px;
+  border: grey solid 3pt;
   border-left: none;
   border-right: none;
+  background-image: url('./assets/sand.jpg');
+  background-size: cover;
+}
+
+.containerTextIntro hr {
+ margin: 0;
+ margin-bottom: 15px;
 }
 
 .containerTextIntro h2 {
-  color: yellow;
+  color: white;
   text-align: start;
+  text-shadow: none;
 }
 
 .containerText,
@@ -237,19 +238,29 @@ a {
   display: table;
   table-layout: fixed;
   border-spacing: 1.25vw;
-  margin: 0 20% 5% 20%;
+  margin: 0 20% 0% 20%;
   height: auto;
   text-align: center;
-  line-height: 1;
 }
 
-.slidercontainer {
-  margin: auto;
+.carContainer {
+  background-image: url("./assets/lines.jpg");
+  background-size: cover;
+  background-position: center;
+  border-bottom: grey solid 5pt;
+}
+
+.skillsContainer {
+  background-image: url("./assets/darksand.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .languagesTitle {
+  padding-top: 1vh;
   text-align: center;
-  margin-top: 2%;
+  color: white;
+  text-shadow: none;
 }
 
 .carimg {
@@ -258,20 +269,27 @@ a {
   cursor: grab;
   max-width: 100%;
   height: auto;
-  width: 275px;
+  width: 250px;
 }
 
 .skillsbox {
   display: table-cell;
-  padding-top: 1vh;
+  padding: 1vh;
   margin: auto;
   width: 30%;
   height: 30vh;
-  float: inline-block;
-  line-height: 1.8;
-  border: #083947 double 5px;
-  border-left: none;
+  border: aquamarine solid 2px;
   border-right: none;
+  border-left: none;
+  color: white;
+}
+
+.skillsbox h3 {
+  text-shadow: none;
+}
+
+.skillsbox li {
+  font-size: 12pt;
 }
 
 .linkbox {
@@ -287,11 +305,8 @@ a {
   margin: 5%;
 }
 
-.footertxt {
-  color: black;
-  text-align: center;
-  font-size: 12pt;
-  font-family: 'Roboto Condensed', sans-serif;
+.footerMain {
+  color: white;
 }
 
 .fade-in-section {
@@ -309,13 +324,13 @@ a {
 }
 
 @media (max-width: 1024px) {
-  #introimage { 
+  #introimage {
     margin-top: 1%;
     margin-right: 5%;
     margin-left: 5%;
     height: 150px;
     float: right;
-    border: gold solid 2px;
+    border: white solid 2px;
     border-radius: 15%;
   }
 
@@ -378,7 +393,6 @@ a {
     padding-right: 5%;
     margin: 0;
     text-align: start;
-    background-color: #282C34;
     height: auto;
   }
 
@@ -402,10 +416,9 @@ a {
 
   .skillsbox {
     background-color: inherit;
-    font-size: large;
+    font-size: 20px;
     height: 25vh;
     width: auto;
-    line-height: 1.8;
     margin: 2%;
     text-align: center;
     padding: 5%;
@@ -418,7 +431,7 @@ a {
     margin-left: 5px;
     height: 150px;
     float: right;
-    border: gold solid 2px;
+    border: white solid 2px;
   }
 
   #github,
@@ -441,7 +454,7 @@ a {
   }
 
   .navContainer {
-    font-size: 3vh;
+    font-size: 5vh;
     justify-content: center;
   }
 
@@ -485,7 +498,6 @@ a {
     padding-right: 5%;
     margin: 0;
     text-align: start;
-    background-color: #282C34;
     height: auto;
   }
 
@@ -515,7 +527,6 @@ a {
     font-size: large;
     height: 40vh;
     width: auto;
-    line-height: 1.8;
     margin: 2%;
     text-align: center;
     padding: 5%;

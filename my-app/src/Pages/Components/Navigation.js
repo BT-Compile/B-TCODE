@@ -22,7 +22,7 @@ function SquareLink({ id, children }) {
 }
 
 function hover(id) {
-    document.getElementById(id).style.color = 'orange';
+    document.getElementById(id).style.color = 'aquamarine';
 }
 
 function offhover(id) {
