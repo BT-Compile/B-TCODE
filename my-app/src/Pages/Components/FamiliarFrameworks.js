@@ -5,10 +5,12 @@ import azure from './assets/azure.png';
 import jquery from './assets/jquery.png';
 import react from './assets/react.png';
 import netcore from './assets/netcore.png';
+import FadeInSection from './Fade';
 
 export default function FamiliarFrameworks() {
     return (
         <>
+            <FadeInSection>
                 <br />
                 <h2 className="languagesTitle">Familiar Frameworks & Platforms</h2>
                 <hr />
@@ -21,6 +23,7 @@ export default function FamiliarFrameworks() {
                 </Carousel>
                 <br />
                 <br />
+            </FadeInSection>
         </>
     );
 }

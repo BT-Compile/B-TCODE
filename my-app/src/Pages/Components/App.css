@@ -126,6 +126,20 @@ a {
   font-family: 'Bebas Neue', cursive;
 }
 
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
+  }
+
+  50% {
+    margin-top: 20px;
+  }
+
+  100% {
+    margin-top: 0;
+  }
+}
+
 .down-arrow {
   position: absolute;
   top: 85vh;
@@ -149,20 +163,6 @@ a {
   border-radius: 4px;
   transform: rotateZ(45deg);
   color: white;
-}
-
-@keyframes jumpInfinite {
-  0% {
-    margin-top: 0;
-  }
-
-  50% {
-    margin-top: 20px;
-  }
-
-  100% {
-    margin-top: 0;
-  }
 }
 
 .finalpara {
@@ -223,8 +223,8 @@ a {
 }
 
 .containerTextIntro hr {
- margin: 0;
- margin-bottom: 15px;
+  margin: 0;
+  margin-bottom: 15px;
 }
 
 .containerTextIntro h2 {
@@ -329,12 +329,10 @@ a {
 
 @media (max-width: 1024px) {
   #introimage {
-    margin-top: 1%;
-    margin-right: 5%;
-    margin-left: 5%;
-    height: 150px;
+    margin: 1% 5% 1% 5%;
+    height: 250px;
     float: right;
-    border: white solid 2px;
+    border: aquamarine solid 2px;
     border-radius: 15%;
   }
 
@@ -343,10 +341,9 @@ a {
   #hike {
     max-width: 100%;
     height: auto;
-    margin: 5%;
+    margin: 2%;
     width: 400px;
     border-radius: 15%;
-    border: none;
   }
 
   #github,
@@ -422,8 +419,8 @@ a {
     background-color: inherit;
     font-size: 20px;
     height: 25vh;
-    width: auto;
-    margin: 2%;
+    width: 50%;
+    margin: 2% auto;
     text-align: center;
     padding: 5%;
   }
@@ -435,7 +432,7 @@ a {
     margin-left: 5px;
     height: 150px;
     float: right;
-    border: white solid 2px;
+    border: aquamarine solid 2px;
   }
 
   #github,
@@ -503,6 +500,10 @@ a {
     margin: 0;
     text-align: start;
     height: auto;
+  }
+
+  .languagesTitle {
+    padding-top: 10%;
   }
 
   .carimg {

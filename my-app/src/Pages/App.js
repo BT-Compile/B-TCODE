@@ -6,35 +6,21 @@ import './Components/App.css';
 import Intro from './Components/Intro';
 import FamiliarLanguages from './Components/FamiliarLanguages';
 import FamiliarFrameworks from './Components/FamiliarFrameworks';
-import Footer from './Components/Footer';
 import Banner from './Components/Banner';
 import Skills from './Components/Skills';
-import FadeInSection from './Components/Fade';
 
 export default function App() {
   return (
     <div id='wrapper'>
       <body>
         <Banner />
-
-        <FadeInSection>
-          <Intro />
-        </FadeInSection>
-
+        <Intro />
         <div className='carContainer'>
-          <FadeInSection>
-            <FamiliarLanguages />
-          </FadeInSection>
-
-          <FadeInSection>
-            <FamiliarFrameworks />
-          </FadeInSection>
+          <FamiliarLanguages />
+          <FamiliarFrameworks />
         </div>
-
         <div className='skillsContainer'>
-        <FadeInSection>
           <Skills />
-        </FadeInSection>
         </div>
       </body>
     </div>

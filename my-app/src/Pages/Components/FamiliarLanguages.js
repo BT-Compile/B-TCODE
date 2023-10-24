@@ -6,10 +6,12 @@ import html from './assets/HTML.png';
 import sql from './assets/sql.png';
 import css from './assets/css.png';
 import CSharp from './assets/CSharp.png';
+import FadeInSection from './Fade';
 
 export default function FamiliarLanguages() {
     return (
         <>
+            <FadeInSection>
                 <h2 className="languagesTitle">Familiar Languages</h2>
                 <hr />
                 <Carousel autoplay wrapAround withoutControls slideWidth="20%" speed={15000} scrollMode='remainder'>
@@ -20,6 +22,7 @@ export default function FamiliarLanguages() {
                     <img src={css} alt="css" className="carimg" />
                     <img src={sql} alt="sql" className="carimg" />
                 </Carousel>
+            </FadeInSection>
         </>
     );
 }
