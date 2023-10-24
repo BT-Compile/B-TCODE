@@ -4,7 +4,6 @@ import './Components/App.css';
 
 // Components
 import Intro from './Components/Intro';
-import Navigation from './Components/Navigation';
 import FamiliarLanguages from './Components/FamiliarLanguages';
 import FamiliarFrameworks from './Components/FamiliarFrameworks';
 import Footer from './Components/Footer';
@@ -16,21 +15,21 @@ export default function App() {
   return (
     <div id='wrapper'>
       <body>
-        <FadeInSection>
-          <Banner />
-        </FadeInSection>
+        <Banner />
 
         <FadeInSection>
           <Intro />
         </FadeInSection>
 
-        <FadeInSection>
-          <FamiliarLanguages />
-        </FadeInSection>
+        <div className='carContainer'>
+          <FadeInSection>
+            <FamiliarLanguages />
+          </FadeInSection>
 
-        <FadeInSection>
-          <FamiliarFrameworks />
-        </FadeInSection>
+          <FadeInSection>
+            <FamiliarFrameworks />
+          </FadeInSection>
+        </div>
 
         <FadeInSection>
           <Skills />

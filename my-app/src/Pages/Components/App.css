@@ -6,11 +6,6 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-footer {
-  height: 5vh;
-  background-color: white;
-}
-
 hr {
   border: solid #083947 0;
   border-width: 3px;
@@ -27,7 +22,6 @@ h1 {
 
 h2 {
   text-align: center;
-  color: #083947;
   font-size: 2em;
   font-family: 'Bebas Neue', cursive;
 }
@@ -58,11 +52,12 @@ a {
   margin: auto;
   background-image: url("./assets/wave.gif");
   border-radius: 50%;
-  border: #083947 outset 3px
+  border: black solid 5px
 }
 
 #art {
-  max-width: 100%;
+  box-sizing: border-box;
+  background-image: url("./assets/lines.jpg");
   height: auto;
   width: 400px;
   border-radius: 15%;
@@ -71,7 +66,6 @@ a {
   margin-right: 5%;
   margin-bottom: 5%;
   float: right;
-  border: silver outset 5px;
 }
 
 #usn {
@@ -84,7 +78,6 @@ a {
   margin-left: 5%;
   margin-bottom: 5%;
   float: left;
-  border: silver outset 5px;
 }
 
 #hike {
@@ -97,18 +90,16 @@ a {
   margin-right: 5%;
   margin-bottom: 5%;
   float: right;
-  border: silver outset 5px;
 }
 
 #introimage {
-  max-width: 100%;
   height: auto;
   margin-left: 4%;
-  margin-top: -2%;
-  border-radius: 50%;
+  margin-top: -8%;
+  border-radius: 15%;
   float: right;
   display: flex;
-  border: gold solid 2pt;
+  border: white solid 2px;
 }
 
 #pagetitle {
@@ -164,8 +155,7 @@ a {
 }
 
 .headalign {
-  margin-top: 5%;
-  text-align: center;
+  color: black;
 }
 
 .finalpara {
@@ -197,7 +187,7 @@ a {
 
 .navContainer {
   display: flex;
-  font-size: 24pt;
+  font-size: 4vh;
   font-family: 'Bebas Neue', cursive;
 }
 
@@ -215,16 +205,16 @@ a {
 
 .containerTextIntro {
   padding: 5% 20% 5% 20%;
-  height: auto;
-  background-color: #282C34;
   color: white;
-  border: #445579 solid 5px;
+  border: grey solid 5pt;
   border-left: none;
   border-right: none;
+  background-image: url('./assets/sand.jpg');
+  background-size: cover;
 }
 
 .containerTextIntro h2 {
-  color: yellow;
+  color: white;
   text-align: start;
 }
 
@@ -237,19 +227,22 @@ a {
   display: table;
   table-layout: fixed;
   border-spacing: 1.25vw;
-  margin: 0 20% 5% 20%;
+  margin: 0 20% 0% 20%;
   height: auto;
   text-align: center;
-  line-height: 1;
 }
 
-.slidercontainer {
-  margin: auto;
+.carContainer {
+  background-image: url("./assets/lines.jpg");
+  background-size: cover;
+  background-position: center;
+  border-bottom: grey solid 5pt;
 }
 
 .languagesTitle {
+  padding-top: 1vh;
   text-align: center;
-  margin-top: 2%;
+  color: white;
 }
 
 .carimg {
@@ -263,13 +256,11 @@ a {
 
 .skillsbox {
   display: table-cell;
-  padding-top: 1vh;
+  padding: 1vh;
   margin: auto;
   width: 30%;
   height: 30vh;
-  float: inline-block;
-  line-height: 1.8;
-  border: #083947 double 5px;
+  border: #083947 solid 3px;
   border-left: none;
   border-right: none;
 }
@@ -291,7 +282,7 @@ a {
   color: black;
   text-align: center;
   font-size: 12pt;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Bebas Neue', cursive;
 }
 
 .fade-in-section {
@@ -315,7 +306,7 @@ a {
     margin-left: 5%;
     height: 150px;
     float: right;
-    border: gold solid 2px;
+    border: white solid 2px;
     border-radius: 15%;
   }
 
@@ -378,7 +369,6 @@ a {
     padding-right: 5%;
     margin: 0;
     text-align: start;
-    background-color: #282C34;
     height: auto;
   }
 
@@ -402,10 +392,9 @@ a {
 
   .skillsbox {
     background-color: inherit;
-    font-size: large;
+    font-size: 20px;
     height: 25vh;
     width: auto;
-    line-height: 1.8;
     margin: 2%;
     text-align: center;
     padding: 5%;
@@ -418,7 +407,7 @@ a {
     margin-left: 5px;
     height: 150px;
     float: right;
-    border: gold solid 2px;
+    border: white solid 2px;
   }
 
   #github,
@@ -441,7 +430,7 @@ a {
   }
 
   .navContainer {
-    font-size: 3vh;
+    font-size: 5vh;
     justify-content: center;
   }
 
@@ -485,7 +474,6 @@ a {
     padding-right: 5%;
     margin: 0;
     text-align: start;
-    background-color: #282C34;
     height: auto;
   }
 
@@ -515,7 +503,6 @@ a {
     font-size: large;
     height: 40vh;
     width: auto;
-    line-height: 1.8;
     margin: 2%;
     text-align: center;
     padding: 5%;
