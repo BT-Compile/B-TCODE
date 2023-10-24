@@ -16,10 +16,10 @@ export default function AboutMe() {
                         <h2>About me</h2>
                         <hr />
                         <p>
-                            Hello! My name is Benjamin Trang (he/him) and I am a aspiring fullstack software engineer. I have just graduated from James
-                            Madison University and completed my Bachelors in Business Administration in Computer Information Systems in the winter of 2023.
-                            I built my first computer at 13 years old and never looked back.
-                            I then fell in love with programming my first year in college, I learned some simple Java and that was that.
+                            Hello! My name is Benjamin Trang (he/him) and I am a aspiring fullstack software engineer. I graduated from James
+                            Madison University in the winter of 2023. I have completed my Bachelors in Computer Information Systems. I have 
+                            always been interested in computers. I built my first computer at 13 years old and that was that!
+                            I then fell in love with programming my first year in college, I learned some simple Java and knew that is what i wanted to do.
                             Im hoping to eventually help build a better world using my code in this exponentially growing age of technology.
                         </p>
                     </div>
@@ -50,8 +50,8 @@ export default function AboutMe() {
                         <hr />
                         <p>
                             I have many interests and hobbies that keep me sane. I love cooking, art, building keyboards, gaming, bourbon and music. I am one of two, 
-                            first generation children of Cantonese immigrants and I grew up in my  family's restaurant and grew up around food. 
-                            Typically in Asian cultures food is a sign of love and I do enjoy cooking for my loved ones. Another one of my hobbies 
+                            first generation children of Cantonese immigrants and I grew up in my family's restaurant and grew up around food my entire life. 
+                            Typically in Asian cultures food is a sign of love, and I reciprocate that by cooking for my loved ones. Another one of my hobbies 
                             is building keyboards. A few of my best friends got me into building them and now typing with a regular one is like nails 
                             on a chalkboard. Hopefully, a few of these resonate with you and definitely feel free to reach out to me if you wanna chat about these topics!
                         </p>
