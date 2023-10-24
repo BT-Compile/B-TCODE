@@ -31,12 +31,12 @@ export default function App() {
           </FadeInSection>
         </div>
 
+        <div className='skillsContainer'>
         <FadeInSection>
           <Skills />
         </FadeInSection>
+        </div>
       </body>
-
-      <Footer />
     </div>
   );
 }

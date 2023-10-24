@@ -7,6 +7,7 @@ export default function Intro() {
             <div className='containerTextIntro'>
                 <h2>Hello</h2>
                 <img id='introimage' src={introimage} alt='intro image' />
+                <hr />
                 <div>
                     <p>Welcome to my personal website! My name is Benjamin Trang and I'm an aspiring software engineer and web developer.
                         I have just graduated as a senior Computer Information Systems major from James Madison University.

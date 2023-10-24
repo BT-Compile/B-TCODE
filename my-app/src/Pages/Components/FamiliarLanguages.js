@@ -11,7 +11,7 @@ export default function FamiliarLanguages() {
     return (
         <>
                 <h2 className="languagesTitle">Familiar Languages</h2>
-                <br />
+                <hr />
                 <Carousel autoplay wrapAround withoutControls slideWidth="20%" speed={15000} scrollMode='remainder'>
                     <img src={js} alt="javascript" className="carimg" />
                     <img src={java} alt="java" className="carimg" />

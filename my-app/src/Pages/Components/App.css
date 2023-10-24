@@ -6,10 +6,18 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+footer {
+  background-color: transparent;
+  color: inherit;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 12pt;
+}
+
 hr {
-  border: solid #083947 0;
+  border: solid aquamarine 0;
   border-width: 3px;
-  max-width: 50px;
+  max-width: 70px;
   margin: auto;
   margin-bottom: 20px;
   border-top: 1px;
@@ -24,11 +32,13 @@ h2 {
   text-align: center;
   font-size: 2em;
   font-family: 'Bebas Neue', cursive;
+  text-shadow: 2px 4px 4px grey;
 }
 
 h3 {
   font-family: 'Bebas Neue', cursive;
-  color: black;
+  font-size: larger;
+  text-shadow: 2px 4px 4px grey;
 }
 
 a {
@@ -102,13 +112,10 @@ a {
   border: white solid 2px;
 }
 
-#pagetitle {
-  color: gold;
-}
-
 #textalign {
   text-align: center;
   margin-top: 5%;
+  text-shadow: 2px 4px 4px grey;
 }
 
 #ty {
@@ -154,10 +161,6 @@ a {
   }
 }
 
-.headalign {
-  color: black;
-}
-
 .finalpara {
   text-align: center;
 }
@@ -174,6 +177,7 @@ a {
 
 .bannertext p {
   font-size: 6vh;
+  text-shadow: 2px 4px 4px grey;
 }
 
 .banner {
@@ -200,22 +204,29 @@ a {
   padding-left: 10px;
   padding-right: 10px;
   margin-top: 5px;
-  color: #083947;
+  color: black;
+  text-shadow: 2px 4px 4px grey;
 }
 
 .containerTextIntro {
-  padding: 5% 20% 5% 20%;
+  padding: 10% 20% 10% 20%;
   color: white;
-  border: grey solid 5pt;
+  border: grey solid 3pt;
   border-left: none;
   border-right: none;
   background-image: url('./assets/sand.jpg');
   background-size: cover;
 }
 
+.containerTextIntro hr {
+ margin: 0;
+ margin-bottom: 15px;
+}
+
 .containerTextIntro h2 {
   color: white;
   text-align: start;
+  text-shadow: none;
 }
 
 .containerText,
@@ -239,10 +250,17 @@ a {
   border-bottom: grey solid 5pt;
 }
 
+.skillsContainer {
+  background-image: url("./assets/darksand.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 .languagesTitle {
   padding-top: 1vh;
   text-align: center;
   color: white;
+  text-shadow: none;
 }
 
 .carimg {
@@ -251,7 +269,7 @@ a {
   cursor: grab;
   max-width: 100%;
   height: auto;
-  width: 275px;
+  width: 250px;
 }
 
 .skillsbox {
@@ -260,9 +278,18 @@ a {
   margin: auto;
   width: 30%;
   height: 30vh;
-  border: #083947 solid 3px;
-  border-left: none;
+  border: aquamarine solid 2px;
   border-right: none;
+  border-left: none;
+  color: white;
+}
+
+.skillsbox h3 {
+  text-shadow: none;
+}
+
+.skillsbox li {
+  font-size: 12pt;
 }
 
 .linkbox {
@@ -278,11 +305,8 @@ a {
   margin: 5%;
 }
 
-.footertxt {
-  color: black;
-  text-align: center;
-  font-size: 12pt;
-  font-family: 'Bebas Neue', cursive;
+.footerMain {
+  color: white;
 }
 
 .fade-in-section {
@@ -300,7 +324,7 @@ a {
 }
 
 @media (max-width: 1024px) {
-  #introimage { 
+  #introimage {
     margin-top: 1%;
     margin-right: 5%;
     margin-left: 5%;

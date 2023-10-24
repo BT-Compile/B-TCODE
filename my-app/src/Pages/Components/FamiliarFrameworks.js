@@ -11,7 +11,7 @@ export default function FamiliarFrameworks() {
         <>
                 <br />
                 <h2 className="languagesTitle">Familiar Frameworks & Platforms</h2>
-                <br />
+                <hr />
                 <Carousel autoplay wrapAround withoutControls slideWidth="20%" speed={15000} scrollMode='remainder'>
                     <img src={aws} alt="aws" className="carimg" />
                     <img src={azure} alt="azure" className="carimg" />
@@ -19,6 +19,7 @@ export default function FamiliarFrameworks() {
                     <img src={react} alt="react" className="carimg" />
                     <img src={netcore} alt="netcore" className="carimg" />
                 </Carousel>
+                <br />
                 <br />
         </>
     );
