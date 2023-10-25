@@ -6,9 +6,8 @@ import './Components/App.css';
 import Navigation from './Components/Navigation';
 import Footer from './Components/Footer';
 import LinksSection from './Components/LinksSection';
-import FadeInSection from './Components/Fade';
 
-const Contact = () => {
+const Links = () => {
     return (
         <>
             <div id='wrapper'>
@@ -19,11 +18,11 @@ const Contact = () => {
                 <br />
                 <br />
                 <br />
-                <div className='spacer'></div>
+                <br />
                 <Footer />
             </div>
         </>
     );
 }
 
-export default Contact;
+export default Links;
