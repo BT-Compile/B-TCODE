@@ -12,7 +12,7 @@ export default function Intro() {
                     <hr />
                     <div>
                         <p>Welcome to my personal website! My name is Benjamin Trang and I'm an aspiring software engineer and web developer.
-                            I have just graduated as a senior Computer Information Systems major from James Madison University.
+                            I have just graduated as a Computer Information Systems major from James Madison University.
                             I'm excited to have you here and share my passion with you. This website is a place for me to
                             showcase my work (including the very site you are on now), share my thoughts on development,
                             and connect with other like-minded individuals. As a programmer, I believe that technology
