@@ -16,10 +16,10 @@ export default function AboutMe() {
                         <h2>About me</h2>
                         <hr />
                         <p>
-                            Hello! My name is Benjamin Trang (he/him) and I am a aspiring fullstack software engineer. I graduated from James
-                            Madison University in the winter of 2023. I have completed my Bachelors in Computer Information Systems. I have 
-                            always been interested in computers. I built my first computer at 13 years old and that was that!
-                            I then fell in love with programming my first year in college, I learned some simple Java and knew that is what i wanted to do.
+                            Hello! My name is Benjamin Trang (he/him) and I am an aspiring fullstack software engineer. I graduated from James
+                            Madison University in the winter of 2023, completing my Bachelors in Computer Information Systems. I have 
+                            always been interested in computers. When I was 13 years old when I built my first computer. I then fell in love 
+                            with programming my first year in college when I learned some simple Java and knew that is what I wanted to do.
                             Im hoping to eventually help build a better world using my code in this exponentially growing age of technology.
                         </p>
                     </div>
@@ -32,12 +32,12 @@ export default function AboutMe() {
                         <hr />
                         <p>
                             After completing my associates degree and completing my transfer, I took a two year hiatus. I wanted to pursue a
-                            personal passion of mine, which was to play video games for money! As my family loves to remind me, I was born with the
+                            personal passion of mine, which was to play video games professionally! As my family loves to remind me, I was born with the
                             'competitive gene'. From Counter Strike, Call of Duty, and Halo I grew up always around first person shooters. During my
                             first couple years in college I got noticed in the Tom Clancy's Rainbow Six: Siege community and a year later went
                             professional. I got to play online in Challenger and Professional leagues, as well as two LAN events in Dreamhack Austin 2018
-                            and the United States Nationals in Las Vegas. As much as I loved the experience, it killed any social aspects of my life
-                            between practicing 6 days a week and constant travel, and I never had any free time for loved ones.
+                            and the United States Nationals in Las Vegas. As much as I loved the experience, it did not have a good work life balance.
+                            Between practicing 6 days a week and constant travel, and I never had any free time for loved ones.
                             Toward the end of 2019, I decided to retire to finish college at JMU and spend more time with my friends and family.
                         </p>
                     </div>
@@ -53,7 +53,7 @@ export default function AboutMe() {
                             first generation children of Cantonese immigrants and I grew up in my family's restaurant and grew up around food my entire life. 
                             Typically in Asian cultures food is a sign of love, and I reciprocate that by cooking for my loved ones. Another one of my hobbies 
                             is building keyboards. A few of my best friends got me into building them and now typing with a regular one is like nails 
-                            on a chalkboard. Hopefully, a few of these resonate with you and definitely feel free to reach out to me if you wanna chat about these topics!
+                            on a chalkboard. Hopefully, a few of these resonate with you and definitely feel free to reach out to me if you want to chat about these topics!
                         </p>
                     </div>
                 </FadeInSection>
