@@ -70,7 +70,7 @@ a {
   height: auto;
   width: 400px;
   border: aquamarine solid 2px;
-  border-radius: 15%;
+  border-radius: 50pt;
   margin-top: auto;
   margin-left: 10%;
   margin-right: 5%;
@@ -83,7 +83,7 @@ a {
   height: auto;
   width: 400px;
   border: aquamarine solid 2px;
-  border-radius: 15%;
+  border-radius: 50pt;
   margin-top: 10%;
   margin-right: 10%;
   margin-left: 5%;
@@ -96,7 +96,7 @@ a {
   height: 400px;
   width: 400px;
   border: aquamarine solid 2px;
-  border-radius: 15%;
+  border-radius: 50pt;
   margin-top: 1%;
   margin-left: 10%;
   margin-right: 5%;
@@ -215,7 +215,7 @@ a {
 .containerTextIntro {
   padding: 10% 20% 10% 20%;
   color: white;
-  border: grey solid 3pt;
+  border: white solid 2pt;
   border-left: none;
   border-right: none;
   background-image: url('./assets/sand.jpg');
@@ -251,7 +251,7 @@ a {
   background-image: url("./assets/lines.jpg");
   background-size: cover;
   background-position: center;
-  border-bottom: grey solid 5pt;
+  border-bottom: white solid 2pt;
 }
 
 .skillsContainer {
@@ -269,7 +269,7 @@ a {
 
 .carimg {
   display: block;
-  border-radius: 25%;
+  border-radius: 50pt;
   cursor: grab;
   max-width: 100%;
   height: auto;
