@@ -24,8 +24,8 @@ export default function LinksSection() {
                     <h3 id='textalign'>Email</h3>
                 </div>
                 
-                <div className='linkcolumn' target='_blank'>
-                    <a href='https://www.linkedin.com/in/benjamin-trang/'>
+                <div className='linkcolumn'>
+                    <a href='https://www.linkedin.com/in/benjamin-trang/' target='_blank'>
                         <img id='linkedin' src={linkedin} alt='linkedin' />
                     </a>
                     <h3 id='textalign'>Linkedin</h3>
