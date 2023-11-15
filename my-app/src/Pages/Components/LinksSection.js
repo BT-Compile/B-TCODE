@@ -11,7 +11,7 @@ export default function LinksSection() {
             <br />
             <div className='linkbox'>
                 <div className='linkcolumn'>
-                    <a href='https://github.com/BT-Compile'>
+                    <a href='https://github.com/BT-Compile' target='_blank'>
                         <img id='github' src={githubImage} alt='github' />
                     </a>
                     <h3 id='textalign'>Github</h3>
@@ -24,7 +24,7 @@ export default function LinksSection() {
                     <h3 id='textalign'>Email</h3>
                 </div>
                 
-                <div className='linkcolumn'>
+                <div className='linkcolumn' target='_blank'>
                     <a href='https://www.linkedin.com/in/benjamin-trang/'>
                         <img id='linkedin' src={linkedin} alt='linkedin' />
                     </a>
