@@ -324,7 +324,7 @@ a {
   visibility: visible;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   #introimage {
     margin: 1% 5% 1% 5%;
     height: 250px;
@@ -339,7 +339,8 @@ a {
     max-width: 100%;
     height: auto;
     margin: 2%;
-    width: 400px;
+    margin-top: 5%;
+    width: 300px;
     border-radius: 15%;
   }
 
