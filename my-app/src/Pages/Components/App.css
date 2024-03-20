@@ -33,14 +33,12 @@ h2 {
   text-align: center;
   font-size: 2em;
   font-family: 'Bebas Neue', cursive;
-  text-shadow: 2px 4px 4px grey;
 }
 
 h3 {
   color: white;
   font-family: 'Bebas Neue', cursive;
   font-size: larger;
-  text-shadow: 2px 4px 4px grey;
 }
 
 a {
@@ -68,6 +66,7 @@ a {
 
 #art {
   max-width: 100%;
+  padding: 10pt;
   height: auto;
   width: 400px;
   border: aquamarine solid 2px;
@@ -81,6 +80,7 @@ a {
 
 #usn {
   max-width: 100%;
+  padding: 10pt;
   height: auto;
   width: 400px;
   border: aquamarine solid 2px;
@@ -94,6 +94,7 @@ a {
 
 #hike {
   max-width: 100%;
+  padding: 10pt;
   height: 400px;
   width: 400px;
   border: aquamarine solid 2px;
@@ -106,7 +107,7 @@ a {
 }
 
 #introimage {
-  height: auto;
+  height: 450px;
   margin-left: 4%;
   margin-top: -8%;
   border-radius: 50%;
@@ -119,7 +120,6 @@ a {
   color: white;
   text-align: center;
   margin-top: 5%;
-  text-shadow: 2px 4px 4px grey;
 }
 
 #ty {
