@@ -113,7 +113,8 @@ a {
   border-radius: 50%;
   float: right;
   display: flex;
-  border: aquamarine solid 2px;
+  padding: 10px;
+  border: aquamarine solid 3px;
 }
 
 #textalign {
@@ -216,7 +217,7 @@ a {
 .containerTextIntro {
   padding: 10% 20% 10% 20%;
   color: white;
-  border: white solid 2pt;
+  border: #838383 solid 2pt;
   border-left: none;
   border-right: none;
   background-image: url('./assets/sand.jpg');

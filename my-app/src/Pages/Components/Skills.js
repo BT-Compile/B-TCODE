@@ -24,6 +24,7 @@ export default function Skills() {
                         <ul type="none">
                             <li>Event Management System for JMU (C#/Razor pages)</li>
                             <li>Database with GUI & Password Hashing (Java)</li>
+                            <li>Job Hazard Analysis Portal (C#/Razor pages)</li>
                             <li>This Website (React/JSX/HTML/CSS)</li>
                             <li>JMU College of Business Plan</li>
                         </ul>
