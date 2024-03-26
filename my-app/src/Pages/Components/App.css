@@ -446,10 +446,11 @@ a {
   #art,
   #usn,
   #hike {
+    padding: 0;
     max-width: 100%;
     height: auto;
-    margin: auto;
     width: 400px;
+    margin: auto;
     border-radius: 15%;
   }
 
