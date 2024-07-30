@@ -2,6 +2,7 @@ import React from 'react';
 import Carousel from "nuka-carousel";
 import aws from './assets/AWS.png';
 import azure from './assets/azure.png';
+import bootstrap from './assets/bootstrap.png';
 import jquery from './assets/jquery.png';
 import react from './assets/react.png';
 import netcore from './assets/netcore.png';
@@ -20,6 +21,7 @@ export default function FamiliarFrameworks() {
                     <img src={jquery} alt="jquery" className="carimg" />
                     <img src={react} alt="react" className="carimg" />
                     <img src={netcore} alt="netcore" className="carimg" />
+                    <img src={bootstrap} alt="bootstrap" className="carimg" />
                 </Carousel>
                 <br />
                 <br />

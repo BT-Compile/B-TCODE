@@ -13,7 +13,7 @@ export default function Navigation() {
 
 function SquareLink({ id, children }) {
     return (
-        <Link to={`/${id}`} className="square" onMouseOver={() => hover(id)} onMouseOut={() => offhover(id)} onTouchStart={() => hover(id)} onTouchEnd={() => offhover(id)}>
+        <Link to={`/${id}`} className="square hover-underline-animation" onMouseOver={() => hover(id)} onMouseOut={() => offhover(id)} onTouchStart={() => hover(id)} onTouchEnd={() => offhover(id)}>
             <div id={id} className="square">
                 <p>{children}</p>
             </div>

@@ -6,11 +6,13 @@ export default function Banner() {
     return (
         <>
             <div className="banner">
-            <Navigation />
-                    <div className="bannertext">
+                <Navigation />
+                <div className="bannertext">
+                    <FadeInSection>
                         <h1>B/TCODE</h1>
                         <p>Web Developer & Software Engineer</p>
-                    </div>
+                    </FadeInSection>
+                </div>
                 <div class="down-arrow"></div>
             </div>
         </>

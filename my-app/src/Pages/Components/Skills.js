@@ -4,37 +4,41 @@ import FadeInSection from "./Fade";
 export default function Skills() {
     return (
         <>
-            <FadeInSection>
-                <br />
-                <h2 className="languagesTitle">Other Skills & Projects</h2>
-                <div className="containerText2">
-                    <div className='skillsbox'>
-                        <h3>- Information Technology Skills -</h3>
+
+            <br />
+            <h2 className="languagesTitle">Other Skills & Projects</h2>
+            <div className="containerText2">
+                <div className='skillsbox'>
+                    <h3>Information Technology Skills</h3>
+                    <hr />
+                    <FadeInSection>
                         <ul type="none">
                             <li>Business Process Modeling & Analysis</li>
-                            <li>Familiarity with Cloud Based Architecture</li>
-                            <li>Network & System Analysis</li>
                             <li>Database Design</li>
                             <li>Defensive Cybersecurity & Security Management</li>
+                            <li>Familiarity with Cloud Based Architecture</li>
                             <li>Information Systems Design</li>
+                            <li>Network & System Analysis</li>
                         </ul>
-                    </div>
-                    <div className='skillsbox'>
-                        <h3>- Projects -</h3>
-                        <ul type="none">
-                            <li>Event Management System for JMU (C#/Razor pages)</li>
-                            <li>Database with GUI & Password Hashing (Java)</li>
-                            <li>Job Hazard Analysis Portal (C#/Razor pages)</li>
-                            <li>This Website (React/JSX/HTML/CSS)</li>
-                            <li>JMU College of Business Plan</li>
-                        </ul>
-                    </div>
+                    </FadeInSection>
                 </div>
-                <br />
-                <footer>
-                    <p className='footerMain'>- Benjamin Trang, {new Date().getFullYear()} &#169; -</p>
-                </footer>
-            </FadeInSection>
+                <div className='skillsbox'>
+
+                    <h3>Projects</h3>
+                    <hr />
+                    <FadeInSection>
+                        <ul type="none">
+                            <li>Database with GUI & Password Hashing (Java)</li>
+                            <li>Event Management System for JMU (C#/Razor pages)</li>
+                            <li>JMU College of Business Plan</li>
+                            <li>Job Hazard Analysis Portal (C#/Razor pages)</li>
+                            <li>Machining Database for Lighthouse Instruments (C#/Razor pages)</li>
+                            <li>This Website (React/JSX/HTML/CSS)</li>
+                        </ul>
+                    </FadeInSection>
+                </div>
+            </div>
+            <br />
         </>
     );
 }

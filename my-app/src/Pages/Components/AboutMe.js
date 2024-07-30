@@ -16,7 +16,7 @@ export default function AboutMe() {
                         <h2>About me</h2>
                         <hr />
                         <p>
-                            Hello! My name is Benjamin Trang (he/him) and I am an aspiring fullstack software engineer. I graduated from James
+                            Hello! My name is Benjamin Trang (he/him) and I am a fullstack software engineer. I graduated from James
                             Madison University in the winter of 2023, completing my Bachelors in Computer Information Systems. I have 
                             always been interested in computers. When I was 13 years old when I built my first computer, I then fell in love 
                             with programming during my first year in college when I learned some simple Java and knew that is what I wanted to do.
