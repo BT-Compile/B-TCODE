@@ -16,9 +16,9 @@ export default function AboutMe() {
                         <h2>About me</h2>
                         <hr />
                         <p>
-                            Hello! My name is Benjamin Trang (he/him) and I am a fullstack software engineer. I graduated from James
-                            Madison University in the winter of 2023, completing my Bachelors in Computer Information Systems. I have 
-                            always been interested in computers. When I was 13 years old when I built my first computer, I then fell in love 
+                            Hello! My name is Benjamin Trang and I am a fullstack software engineer and DevOps Engineer. I graduated from James
+                            Madison University in the winter of 2023, completing my Bachelors in Computer Information Systems. I have
+                            always been interested in computers. When I was 13 years old when I built my first computer, I then fell in love
                             with programming during my first year in college when I learned some simple Java and knew that is what I wanted to do.
                             I'm hoping to eventually help build a better world using my code in this exponentially growing age of technology.
                         </p>
@@ -49,11 +49,11 @@ export default function AboutMe() {
                         <h2>Other Hobbies</h2>
                         <hr />
                         <p>
-                            I have many interests and hobbies that keep me sane. I love cooking, art, building keyboards, gaming, bourbon and music. I am one of two, 
-                            first generation children of Cantonese immigrants and I grew up in my family's restaurant and grew up around food my entire life. 
-                            Typically in Asian cultures food is a sign of love, and I reciprocate that by cooking for my loved ones. Another one of my hobbies 
-                            is building keyboards. A few of my best friends got me into building them and now typing with a regular one is like nails 
-                            on a chalkboard. Hopefully, a few of these resonate with you and definitely feel free to reach out to me if you want to chat about these topics!
+                            I am one of two, first generation children of Cantonese immigrants and I grew up in my family's restaurant.
+                            I have many interests and hobbies. I love cooking, art, gaming, bourbon, and music.
+                            I love cooking and tasting food. I am always looking for an excuse to cook! Some of one of my additional hobbies I mentioned are
+                            building keyboards, bourbon tasting, and going to see concerts.
+                            Hopefully, a few of these resonate with you and definitely feel free to reach out to me if you want to chat about these topics!
                         </p>
                     </div>
                 </FadeInSection>
@@ -61,11 +61,13 @@ export default function AboutMe() {
                 <FadeInSection>
                     <div className='containerTextAbout'>
                         <div className='finalpara'>
+                            <br />
+                            <br />
                             <h2>The Purpose</h2>
                             <hr />
                             <p>
                                 I created this website to get myself out there into the tech world. As I have stated before, I think that technology is the best way
-                                to make a difference on our planet and society. My competitive spirit drives me to learn and create code efficiently. I eventually hope to make a 
+                                to make a difference on our planet and society. My competitive spirit drives me to learn and create code efficiently. I eventually hope to make a
                                 positive impact on the the world and hopefully work at a place that shares the same values as myself.
                             </p>
                         </div>

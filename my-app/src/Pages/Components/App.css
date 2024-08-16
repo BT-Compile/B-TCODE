@@ -246,7 +246,6 @@ a {
   table-layout: fixed;
   border-spacing: 1.25vw;
   margin: 0 20% 0% 20%;
-  height: auto;
   text-align: center;
 }
 
@@ -284,7 +283,7 @@ a {
   padding: 1vh;
   margin: auto;
   width: 30%;
-  height: 30vh;
+  height: 50vh;
   color: white;
 }
 
@@ -432,8 +431,7 @@ a {
     display: flex;
     table-layout: fixed;
     flex-direction: column;
-    margin: 0 5% 5% 5%;
-    height: auto;
+    margin: 0 5%;
   }
 
   .skillsbox {
@@ -541,8 +539,7 @@ a {
     display: flex;
     table-layout: fixed;
     flex-direction: column;
-    margin: 0 5% 5% 5%;
-    height: auto;
+    margin: 0 5%;
   }
 
   .skillsbox {
